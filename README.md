@@ -13,7 +13,8 @@ powered by
 
 ![PCB mechanical concept](documentation/images/PCB_concept.svg "PCB mechanical concept")
 
-![edit online with draw.io] (https://app.diagrams.net/#HMomoRC-tech%2FMoGliFC%2Fmain%2Fdocumentation%2Fimages%2FPCB_concept.svg)
+[edit online with draw.io](https://app.diagrams.net/#HMomoRC-tech%2FMoGliFC%2Fmain%2Fdocumentation%2Fimages%2FPCB_concept.svg)
+
 
 > The second extension option is a larger frame which allows the MoGliFC to be placed in a BOPLA ALUBOS housing
 > with the USB interface as well es the CAN/CAN-FD externally available turning the MogliFC into a general
