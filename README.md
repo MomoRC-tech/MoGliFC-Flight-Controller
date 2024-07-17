@@ -46,6 +46,6 @@ Before creating new issues please check to see if there is an existing one!
 # Developers
 
 Contributors are:
-* Peter Gliwa, Gliwa.com  https://www.gliwa.com/
-* Manuel Singer, MomoRC
+* Peter, Gliwa.com  https://www.gliwa.com/
+* Manuel, MomoRC
 
