@@ -33,21 +33,34 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 * BARO: DPS310 (Infineon) 
 * OSD: AT7456E
 * BLACKBOX: 128MB
+
 ## I/O
 * 7x UARTs
 * 8x PWM outputs
 * 4 ADCs (Vbat, Current, RSSI, AirSpeed)
 * I2C, SPI, CAN
-
+* USB-C
+   
 ## Power 
 * 8-25V (3~6S) DC-input
 * BEC 5V 2A cont., 3A peak (FC)
 * BEC 10V 2A cont., 3A peak (VTX/camera)
 * BEC Vx 8A cont., 10A peak (servos, 5V with 6/7.4V option)  
 * LDO 3.3V 500mA (external)   
-...
 
-STM32H743VIT6, ICM42688P & ICM42688P, DPS310, OSD, 7x UARTs, 2x I2C, 1xCAN, 13x PWM outputs, 3x BEC, PDB, curre
+## Other
+* 3x status LEDs
+* Beeper support
+* WS2812 LED support
+* Dual Camera Inputs switch
+* Current Sensor (50A continuous, 160A peak)
+* Battery Voltage Sensor: 1K:10K (INAV Scale 1100)
+
+## Mechanics
+* Mounting: 30.5 x 30.5mm, Φ4mm with Grommets Φ3mm
+* Dimension: 54 x 36 x 13 mm
+* Weight: XXg (Quad: XXg, Wing: YYg) 
+
 
 # Documentation
 ## Setup, installation
