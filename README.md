@@ -1,5 +1,5 @@
 # MoGliFC – flight controller and generic CAN-FD interface
-<img src="/documentation/images/MOMORC.jfif" width="60">
+<img src="/documentation/images/MOMORC.jfif" width="60"> <img src="/documentation/images/MOMORC.jfif" width="60"> <img src="/documentation/images/MOMORC.jfif" width="60"> <img src="/documentation/images/gliwa-logo.svg" width="60">
 
 # Overview
 > MoGliFC is an STM32H743-based flight controller for copters ('drones') as well as aircraft with wings.
@@ -49,4 +49,13 @@ Before creating new issues please check to see if there is an existing one!
 Main developers are:
 * Peter, https://www.gliwa.com/
 * Manuel, MomoRC
+
+# Targets
+- [x] set up github space
+- [ ] set up development environment
+- [ ] develop and prototype board
+- [ ] develop inav branch
+- [ ] final prototype testing
+- [ ] ingest MoGliFC as supported INAV and Betaflight
+- [ ] series production
 
