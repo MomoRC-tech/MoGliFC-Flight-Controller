@@ -1,7 +1,18 @@
 # MoGliFC – flight controller and generic CAN-FD interface
 powered by
 
-<img src="/documentation/images/MOMORC.jfif" width="60"> <img src="/documentation/images/gliwa-logo.svg" width="90"> <img src="/documentation/images/t1_timing.svg" width="60">
+<table border="0">
+ <tr>
+    <td><img src="/documentation/images/MOMORC.jfif" width="60"></td>
+    <td><img src="/documentation/images/gliwa-logo.svg" width="90"></td>
+    <td><img src="/documentation/images/t1_timing.svg" width="60"></td>
+ </tr>
+ <tr>
+    <td>MomoRC</td>
+    <td>[https://GLIWA.COM](https://gliwa.com/)</td>
+    <td>[https://GLIWA.COM](https://gliwa.com/products/t1timing)</td>
+ </tr>
+</table>
 
 # Overview
 > MoGliFC is an STM32H743-based flight controller for copters ('drones') as well as aircraft with wings.
