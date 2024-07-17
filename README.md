@@ -7,13 +7,13 @@
 > for the servo connectors which also holds the BEC for the servos. When removed, the signal outputs remain
 > on the flight controller and are available e.g. as GPIOs, UARTs or PWM outputs.
 
-![PCB mechanical concept](PCB_concept.svg "PCB mechanical concept")
+![PCB mechanical concept](documentation/images/PCB_concept.svg "PCB mechanical concept")
 
 > The second extension option is a larger frame which allows the MoGliFC to be placed in a BOPLA ALUBOS housing
 > with the USB interface as well es the CAN/CAN-FD externally available turning the MogliFC into a general
 > purpose CAN-FD interface. This second extension also holds a SWD (single wire debug) interface for easy debugging.
 
-![BOPLA ALUBOS housing](BOPLA_ALUBOS.png "BOPLA ALUBOS housing")
+![BOPLA ALUBOS housing](documentation/images/BOPLA_ALUBOS.png "BOPLA ALUBOS housing")
 
 # Features
 
