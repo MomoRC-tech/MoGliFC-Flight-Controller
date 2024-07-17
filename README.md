@@ -1,4 +1,6 @@
 # MoGliFC – flight controller and generic CAN-FD interface
+
+# Overview
 > MoGliFC is an STM32H743-based flight controller for copters ('drones') as well as aircraft with wings.
 > Winged aircraft typically require servos to be connected to the flight controller while copters
 > typically have no such requireemnt. MoGliFC addresses both use-cases by providing a scored extension board
@@ -12,3 +14,38 @@
 > purpose CAN-FD interface. This second extension also holds a SWD (single wire debug) interface for easy debugging.
 
 ![BOPLA ALUBOS housing](BOPLA_ALUBOS.png "BOPLA ALUBOS housing")
+
+# Features
+
+...
+
+# Documentation
+## Setup, installation
+> ...
+
+## Hardware
+
+## Software
+
+## Tools
+> ...
+
+# Contributing
+Contributions are welcome and encouraged.  You can contribute in many ways:
+
+* Documentation updates and corrections.
+* How-To guides - received help?  help others!
+* Bug fixes.
+* New features.
+* Telling us your ideas and suggestions.
+* Buying your hardware from this <TBD>
+
+Github issue tracker is a good place to search for existing issues or report a new bug/feature request:
+Before creating new issues please check to see if there is an existing one!
+
+# Developers
+
+Contributors are:
+* Peter Gliwa, Gliwa.com  https://www.gliwa.com/
+* Manuel Singer, MomoRC
+
