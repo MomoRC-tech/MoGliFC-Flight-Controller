@@ -9,6 +9,7 @@ powered by
 > typically have no such requireemnt. MoGliFC addresses both use-cases by providing a scored extension board
 > for the servo connectors which also holds the BEC for the servos. When removed, the signal outputs remain
 > on the flight controller and are available e.g. as GPIOs, UARTs or PWM outputs.
+> To enable a "Full Stack" solution for drones incorporating also a dedicated ESC daughter board, the design goal of MoGliFC is such that off-the-shelf ESC boards can be used. (outlook: custom ESC board for MoGliFC with advanced features)    
 
 ![PCB mechanical concept](documentation/images/PCB_concept.svg "PCB mechanical concept")
 
