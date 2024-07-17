@@ -6,7 +6,8 @@ powered by
 # Overview
 MoGliFC is an STM32H743-based flight controller for quadcopters ('drones') as well as aircraft with wings.
 Winged aircraft typically require servos to be connected to the flight controller while copters
-typically have no such requireemnt. 
+typically have no such requirement. 
+
 ### Quadcopter and Wing
 MoGliFC addresses both use-cases by providing a scored extension board for the servo connectors which 
 also holds the BEC for the servos. When removed, the signal outputs remain on the flight controller and 
@@ -25,8 +26,28 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 [edit online with draw.io](https://app.diagrams.net/#HMomoRC-tech%2FMoGliFC%2Fmain%2Fdocumentation%2Fimages%2FPCB_concept.svg)
 
 # Features
+## Main
+* MCU: STM32H743 @480MHz
+* GYRO: BMI270 (Bosch)
+* MAG: HMC5883 (Honeywell)
+* BARO: DPS310 (Infineon) 
+* OSD: AT7456E
+* BLACKBOX: 128MB
+## I/O
+* 7x UARTs
+* 8x PWM outputs
+* 4 ADCs (Vbat, Current, RSSI, AirSpeed)
+* I2C, SPI, CAN
 
+## Power 
+* 8-25V (3~6S) DC-input
+* BEC 5V 2A cont., 3A peak (FC)
+* BEC 10V 2A cont., 3A peak (VTX/camera)
+* BEC Vx 8A cont., 10A peak (servos, 5V with 6/7.4V option)  
+* LDO 3.3V 500mA (external)   
 ...
+
+STM32H743VIT6, ICM42688P & ICM42688P, DPS310, OSD, 7x UARTs, 2x I2C, 1xCAN, 13x PWM outputs, 3x BEC, PDB, curre
 
 # Documentation
 ## Setup, installation
@@ -64,6 +85,6 @@ Main developers are:
 - [ ] develop and prototype board
 - [ ] develop inav branch
 - [ ] final prototype testing
-- [ ] ingest MoGliFC as supported INAV and Betaflight
+- [ ] ingest MoGliFC as supported INAV and Betaflight target
 - [ ] series production
 
