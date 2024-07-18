@@ -36,16 +36,16 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 
 ## I/O
 * 7x UARTs
-* 8x PWM outputs
+* 8x PWM outputs (Wing only)
 * 4 ADCs (Vbat, Current, RSSI, AirSpeed)
 * I2C, SPI, CAN
 * USB-C
    
 ## Power 
 * 8-25V (3~6S) DC-input
-* BEC 5V 2A cont., 3A peak (FC)
-* BEC 10V 2A cont., 3A peak (VTX/camera)
-* BEC Vx 8A cont., 10A peak (servos, 5V with 6/7.4V option)  
+* BEC 5V 2A cont., 3A peak (FC) (Wing/Debug only)
+* BEC 10V 2A cont., 3A peak (VTX/camera) (Wing/Debug only)
+* BEC Vx 8A cont., 10A peak (servos, 5V with 6/7.4V option) (Wing/Debug only)  
 * LDO 3.3V 500mA (external)   
 
 ## Other
@@ -53,11 +53,11 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 * Beeper support
 * WS2812 LED support
 * Dual Camera Inputs switch
-* Current Sensor (50A continuous, 160A peak)
+* Current Sensor (50A continuous, 160A peak) (Wing/Debug only)
 * Battery Voltage Sensor: 1K:10K (INAV Scale 1100)
 
 ## Mechanics
-* Mounting: 30.5 x 30.5mm, Φ4mm with Grommets Φ3mm
+* Mounting: 30.5 x 30.5mm, Φ4mm with grommets Φ3mm
 * Dimension: 54 x 36 x 13 mm
 * Weight: XXg (Quad: XXg, Wing: YYg) 
 
