@@ -20,7 +20,6 @@ The second extension option is a larger frame which allows the MoGliFC to be pla
 with the USB interface as well es the CAN/CAN-FD externally available turning the MogliFC into a general
 purpose CAN-FD interface. This second extension also holds a SWD (single wire debug) interface for easy debugging.
 
-
 ![PCB mechanical concept](documentation/images/PCB_concept.svg "PCB mechanical concept")
 
 [edit online with draw.io](https://app.diagrams.net/#HMomoRC-tech%2FMoGliFC%2Fmain%2Fdocumentation%2Fimages%2FPCB_concept.svg)
