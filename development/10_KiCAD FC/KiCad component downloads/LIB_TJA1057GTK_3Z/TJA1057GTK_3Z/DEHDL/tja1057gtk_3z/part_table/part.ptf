@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TJA1057GTK_3Z'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NXP", "TJA1057GTK/3Z" (!) = "", "SON65P300X300X100-9N-D", "Small Outline No-lead", "771-TJA1057GTK/3Z", "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/TJA1057GTK-3Z?qs=gH1BdSMZm8XBUj89vken9w%3D%3D", "TJA1057GTK/3Z", "https://www.arrow.com/en/products/tja1057gtk3z/nxp-semiconductors?region=nac", "CAN Interface IC High-speed CAN transceiver", "http://www.nxp.com/docs/en/data-sheet/TJA1057.pdf", "1 mm"
+END_PART
+
+END.

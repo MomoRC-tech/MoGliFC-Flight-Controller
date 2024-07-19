@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TJA1057GTK_3Z
+D CAN Interface IC High-speed CAN transceiver
+K
+F http://www.nxp.com/docs/en/data-sheet/TJA1057.pdf
+$ENDCMP
+#
+#End Doc Library

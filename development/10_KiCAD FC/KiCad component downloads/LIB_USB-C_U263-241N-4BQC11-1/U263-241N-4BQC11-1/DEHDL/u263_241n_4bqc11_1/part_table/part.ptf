@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'U263_241N_4BQC11_1'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "XKB Connectivity", "U263-241N-4BQC11-1" (!) = "", "U263241N4BQC111", "Other", "", "", "", "", "", "", "USB Connectors SMD RoHS", "http://www.helloxkb.com/public/images/pdf/U263-241N-4BQC11-1-.pdf", "10.5 mm"
+END_PART
+
+END.

@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# DPS310
+#
+DEF DPS310 U 0 40 Y Y 1 L N
+F0 "U" -400 550 50 H V L BNN
+F1 "DPS310" -400 -550 50 H V L BNN
+F2 "XDCR_DPS310" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Unavailable" 0 0 50 H I L BNN "AVAILABILITY"
+F5 "None" 0 0 50 H I L BNN "PRICE"
+F6 "Infineon" 0 0 50 H I L BNN "MF"
+F7 "DPS310XTSA1" 0 0 50 H I L BNN "MP"
+F8 "Supply voltage range 1.7V to 3.6V | Operation range 300hPa 1200hPa | Sensors precision 0.005hPa | Relative accuracy 0.06hPa | Pressure temperature sensitivity of 0.5Pa/K | Temperature accuracy 0.5C" 0 0 50 H I L BNN "DESCRIPTION"
+F9 "LGA-8 Infineon" 0 0 50 H I L BNN "PACKAGE"
+DRAW
+S -400 -500 400 500 0 0 10 f
+X GND 1 600 -400 200 L 40 40 0 0 W 
+X GND 7 600 -400 200 L 40 40 0 0 W 
+X ~CSB 2 -600 100 200 R 40 40 0 0 I 
+X SDI 3 -600 -100 200 R 40 40 0 0 B 
+X SCK 4 -600 0 200 R 40 40 0 0 I C
+X SDO 5 -600 -200 200 R 40 40 0 0 O 
+X VDDIO 6 600 300 200 L 40 40 0 0 W 
+X VDD 8 600 400 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

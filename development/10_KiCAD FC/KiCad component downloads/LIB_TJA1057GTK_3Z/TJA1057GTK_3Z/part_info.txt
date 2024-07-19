@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=TJA1057GTK/3Z
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=9
+Version=1.1
+Released=2018-12-13 09:18:10
+Downloaded=2024-07-16 13:47:58
+3D=Y

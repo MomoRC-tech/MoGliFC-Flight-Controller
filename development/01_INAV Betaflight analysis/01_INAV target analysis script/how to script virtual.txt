@@ -1,0 +1,14 @@
+1. Create: 
+- python -m venv myFC
+- virtualenv myFC
+
+2. Activate: 
+- myFC\Scripts\activate
+
+3. install packages: 
+- pip install openpyxl
+
+4. Do something ....
+
+5. deactivate:
+- deactivate

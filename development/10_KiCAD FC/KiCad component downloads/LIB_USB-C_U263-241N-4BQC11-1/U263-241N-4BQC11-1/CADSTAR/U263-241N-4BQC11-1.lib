@@ -1,0 +1,21 @@
+.U263-241N-4BQC11-1 :1 ;USB Connectors SMD RoHS
+U263241N4BQC111
+*STM J
+*NGS
+*PNM 1=A1 2=A2 3=A3 4=A4 5=A5 6=A6 7=A7 8=A8 9=A9 10=A10 11=A11 12=A12 13=B1 14=B2 15=B3 16=B4 17=B5 18=B6 19=B7 20=B8 21=B9 22=B10 23=B11 24=B12 25=MH1 26=MH2 27=MH3 28=MH4
+*PLB 1="GND_1" 2="SSTXP1" 3="SSTXN1" 4="VBUS_1" 5="CC1" 6="DP1" 7="DN1" 8="SBU1" 9="VBUS_2" 10="SSRXN2" 11="SSRXP2" 12="GND_2" 13="GND_3" 14="SSTXP2" 15="SSTXN2" 16="VBUS_3" 17="CC2" 18="DP2" 19="DN2" 20="SBU2" 21="VBUS_4" 22="SSRXN1" 23="SSRXP1" 24="GND_4" 25="MH1" 26="MH2" 27="MH3" 28="MH4"
+*MXP 30
+*DFN U263-241N-4BQC11-1
+~!Manufacturer_Name (XKB Connectivity)
+~!Manufacturer_Part_Number (U263-241N-4BQC11-1)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (http://www.helloxkb.com/public/images/pdf/U263-241N-4BQC11-1-.pdf)
+~!Height (10.5mm)
+~!3D_Model (U263-241N-4BQC11-1)
+U263-241N-4BQC11-1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 

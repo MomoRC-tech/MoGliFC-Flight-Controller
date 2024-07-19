@@ -1,0 +1,18 @@
+.EVQ-P7J01P :1 ;Switch,Tactile,3.5x2.9mm,Light Touch Black Side Tactile Switch, SPST 50 mA@ 12 V dc 1.7mm
+EVQP7J01P
+*STM S
+*NGS
+*PLB 1="1" 2="1_" 3="2" 4="2_"
+*MXP 4
+*DFN EVQ-P7J01P
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (EVQ-P7J01P)
+~!Mouser Part Number (667-EVQP7J01P)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-P7J01P?qs=rJ%252BziJWpyszkfuBTA00z9w%3D%3D)
+~!Arrow Part Number (EVQ-P7J01P)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/evq-p7j01p/panasonic)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA6/577750.pdf)
+~!Height (1mm)
+~!3D_Model (EVQ-P7J01P)
+EVQ-P7J01P
+1.1!U 2.1!U 3.1!U 4.1!U 
