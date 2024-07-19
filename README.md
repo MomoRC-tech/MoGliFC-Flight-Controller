@@ -57,12 +57,11 @@ flowchart LR
 
     H ----> |ext| I>servos]
     D ----> |ext| E>peripherals]
-    D --> |int| F(LDO 3V3-500mA MCU)  
-    F --> |int| J[MCU]
-    D --> |int| G(LDO 3V3-500mA SENS)
-    G --> |int| K(sensors)
+    D --> F(LDO 3V3-500mA MCU)  
+    F --> J[MCU]
+    D --> G(LDO 3V3-500mA SENS)
+    G --> K(sensors)
     G ---> |ext| L>GPS,...]
-
 
     subgraph MogGliFC
         B(BEC 10V-2A cont)
