@@ -48,11 +48,19 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 * LDO 3.3V 500mA (external)   
 
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+flowchart LR
+    A[BAT: 8..25V] --> B(BEC 10V-2A cont)
+    B ---->|ext| C[VTX]
+    A --> H(BEC 5V-8A)
+    A --> D(BEC 5V-2A)
+    H ----> |ext| I[servos]
+    D ----> |ext| E[peripherals]
+    D --> |int| F(LDO 3V3-500mA MCU)  
+    F --> |int| J[MCU]
+    D --> |int| G(LDO 3V3-500mA SENS)
+    G --> |int| K(sensors)
+    G ---> |ext| L[GPS,...]
+
 ```
 
 
