@@ -47,17 +47,13 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 * BEC Vx 8A cont., 10A peak (servos, 5V with 6/7.4V option) (Wing/Debug only)  
 * LDO 3.3V 500mA (external)   
 
-```ditaa {cmd=true args=["-E"]}
-  +--------+   +-------+    +-------+
-  |        | --+ ditaa +--> |       |
-  |  Text  |   +-------+    |diagram|
-  |Document|   |!magic!|    |       |
-  |     {d}|   |       |    |       |
-  +---+----+   +-------+    +-------+
-      :                         ^
-      |       Lots of work      |
-      +-------------------------+
-  ```
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
 
 
 ## Other
