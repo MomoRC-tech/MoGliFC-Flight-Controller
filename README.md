@@ -74,7 +74,9 @@ flowchart LR
     end
 
 ```
-<!-- + mermaid live editor: https://mermaid.live/ + -->,
+<!-- + mermaid live editor: https://mermaid.live/ + -->
+<!-- + https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/ + -->
+
 
 ## Other
 * 3x status LEDs
