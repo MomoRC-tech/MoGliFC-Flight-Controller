@@ -62,7 +62,7 @@ flowchart LR
     G ---> |ext| L[GPS,...]
 
 ```
-
+<!-- + mermaid live editor: https://mermaid.live/ + -->,
 
 ## Other
 * 3x status LEDs
