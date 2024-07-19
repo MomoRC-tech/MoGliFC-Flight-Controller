@@ -49,10 +49,10 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 
 ```mermaid
 flowchart LR
-    A[BAT: 8..25V] --> B(BEC 10V-2A cont)
+    A[BAT: 8..25V] ---> B(BEC 10V-2A cont)
     B ---->|ext| C[VTX]
-    A --> H(BEC 5V-8A)
-    A --> D(BEC 5V-2A)
+    A ---> H(BEC 5V-8A)
+    A ---> D(BEC 5V-2A)
     H ----> |ext| I[servos]
     D ----> |ext| E[peripherals]
     D --> |int| F(LDO 3V3-500mA MCU)  
