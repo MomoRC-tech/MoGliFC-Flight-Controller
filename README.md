@@ -33,6 +33,8 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 * OSD: AT7456E
 * BLACKBOX: 128MB
 
+* expressLRS receiver
+
 ## I/O
 * 7x UARTs
 * 8x PWM outputs (Wing only)
@@ -47,12 +49,13 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 * BEC Vx 8A cont., 10A peak (servos, 5V with 6/7.4V option) (Wing/Debug only)  
 * LDO 3.3V 500mA (external)   
 
+### Option A) MCU shortcut protected
 ```mermaid
 flowchart LR
-    A[BAT: 8..25V] ---> B(BEC 10V-2A cont)
+    A[BAT: 8..25V] -.-> B(BEC 10V-2A cont)
 
     B ---->|ext| C>VTX]
-    A ---> H(BEC 5V-8A)
+    A ---> H(BEC 5/6/7.2V-8A)
     A ---> D(BEC 5V-2A)
 
     H ----> |ext| I>servos]
@@ -63,12 +66,41 @@ flowchart LR
     G --> K(sensors)
     G ---> |ext| L>GPS,...]
 
+
     subgraph MogGliFC
         B(BEC 10V-2A cont)
-        H(BEC 5V-8A)
+        H(BEC 5/6/7.2V-8A)
         D(BEC 5V-2A)
         F(LDO 3V3-500mA MCU)
         G(LDO 3V3-500mA SENS)
+        J[MCU]
+        K(sensors)
+    end
+
+```
+### Option B) component reduction
+```mermaid
+flowchart LR
+    A[BAT: 8..25V] -.-> B(BEC 10V-2A cont)
+
+    B ---->|ext| C>VTX]
+    A ---> H(BEC 5/6/7.2V-8A)
+    A ---> D(BEC 5V-2A)
+
+    H ----> |ext| I>servos]
+    D ----> |ext| E>peripherals]
+    D --> F(LDO 3V3-1A MCU)  
+    F --> J[MCU]
+    F --> K(sensors)
+    F ---> |ext| L>GPS,...]
+
+
+    subgraph MogGliFC
+        B(BEC 10V-2A cont)
+        H(BEC 5/6/7.2V-8A)
+        D(BEC 5V-2A)
+        F(LDO 3V3-1A MCU)
+
         J[MCU]
         K(sensors)
     end
