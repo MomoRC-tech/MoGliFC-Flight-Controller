@@ -49,7 +49,7 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 * BEC Vx 8A cont., 10A peak (servos, 5V with 6/7.4V option) (Wing/Debug only)  
 * LDO 3.3V 500mA (external)   
 
-# Option A) MCU shortcut protected
+### Option A) MCU shortcut protected
 ```mermaid
 flowchart LR
     A[BAT: 8..25V] -.-> B(BEC 10V-2A cont)
@@ -78,7 +78,7 @@ flowchart LR
     end
 
 ```
-# Option B) component reduction
+### Option B) component reduction
 ```mermaid
 flowchart LR
     A[BAT: 8..25V] -.-> B(BEC 10V-2A cont)
