@@ -85,21 +85,21 @@ flowchart LR
     B ---->|ext| C>VTX]
     A ---> H(BEC 5/6/7.2V-8A)
     A ---> D(BEC 5V-2A)
-    A ---> M(BEC 3V3-1A)
 
     H ----> |ext| I>servos]
     D ----> |ext| E>peripherals]
- 
-    M ---> J[MCU]
-    M --> K(sensors)
-    M ----> |ext| L>GPS,...]
+    D --> F(LDO 3V3-1A MCU)  
+    F --> J[MCU]
+    F --> K(sensors)
+    F ---> |ext| L>GPS,...]
 
 
     subgraph MogGliFC
         B(BEC 10V-2A cont)
         H(BEC 5/6/7.2V-8A)
         D(BEC 5V-2A)
-        M(BEC 3V3-1A)
+        F(LDO 3V3-1A MCU)
+
         J[MCU]
         K(sensors)
     end
