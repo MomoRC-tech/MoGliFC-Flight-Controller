@@ -33,6 +33,8 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 * OSD: AT7456E
 * BLACKBOX: 128MB
 
+* expressLRS receiver
+
 ## I/O
 * 7x UARTs
 * 8x PWM outputs (Wing only)
