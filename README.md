@@ -51,7 +51,7 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 
 ```mermaid
 flowchart LR
-    A[BAT: 8..25V] ---> B(BEC 10V-2A cont)
+    A[BAT: 8..25V] -.-> B(BEC 10V-2A cont)
 
     B ---->|ext| C>VTX]
     A ---> H(BEC 5V-8A)
@@ -64,6 +64,7 @@ flowchart LR
     D --> G(LDO 3V3-500mA SENS)
     G --> K(sensors)
     G ---> |ext| L>GPS,...]
+
 
     subgraph MogGliFC
         B(BEC 10V-2A cont)
