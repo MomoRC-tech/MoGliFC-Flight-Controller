@@ -3,6 +3,11 @@ powered by
 
 <img src="/documentation/images/MOMORC-logo.jfif" width="60"> <img src="/documentation/images/gliwa-logo.svg" width="90"> <img src="/documentation/images/t1_timing.svg" width="60">
 
+
+# WORK IN PROGRESS
+
+based on working MomoFC1, see documentation
+
 # Overview
 MoGliFC is an STM32H743-based flight controller for quadcopters ('drones') as well as aircraft with wings.
 Winged aircraft typically require servos to be connected to the flight controller while copters
