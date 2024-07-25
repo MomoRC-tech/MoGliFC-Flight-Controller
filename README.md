@@ -6,7 +6,7 @@ powered by
 
 # WORK IN PROGRESS
 
-based on working MomoFC1, see documentation
+(based on our working MomoRC flight controller, see documentation [MomoFC1 manual](documentation/2022_MomoFC1.pdf)
 
 # Overview
 MoGliFC is an STM32H743-based flight controller for quadcopters ('drones') as well as aircraft with wings.
