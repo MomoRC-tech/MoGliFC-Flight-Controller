@@ -1,0 +1,17 @@
+
+
+TI tool: 
+https://webench.ti.com/power-designer/switching-regulator/select
+
+BEC:
+- LM25141: 4x4mm, 3.8-45 V  (Matek, Vx)  (20pin TSSOP)
+- TPS62933: 3.8...30V, 2/3A, JLCPCB: yes
+  (EMI friendly: TPS62932, TPS62933, TPS62933P and TPS62933O)
+
+- TPS54202 28V, 2A (from unknown source)
+- TPS5450 36V, 5A, JLC yes
+
+- TPS54560DDAR 58V, 5A JLC yes !!!! Vx !!!
+
+- Diodes AP64200 40V, 2A, jlc yes
+- ST A7985ATR 38V 2A, jlc yes
