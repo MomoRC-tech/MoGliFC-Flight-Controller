@@ -5,7 +5,7 @@ powered by
 
 
 # WORK IN PROGRESS
-Tapeout dexpected: 09/2024
+Tapeout expected: 09/2024
 
 Work based on:
 * MomoRC ELRS true diversity receiver
