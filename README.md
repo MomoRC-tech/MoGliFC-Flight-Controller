@@ -3,6 +3,14 @@ powered by
 
 <img src="/documentation/images/MOMORC-logo.jfif" width="60"> <img src="/documentation/images/gliwa-logo.svg" width="90"> <img src="/documentation/images/t1_timing.svg" width="60">
 
+
+# WORK IN PROGRESS
+Tapeout expected: 09/2024
+
+Work based on:
+* MomoRC ELRS true diversity receiver
+* MomoRC MomoFC1 Flight Controller ( [MomoFC1 manual](documentation/2022_MomoFC1_manual.pdf) )
+
 # Overview
 MoGliFC is an STM32H743-based flight controller for quadcopters ('drones') as well as aircraft with wings.
 Winged aircraft typically require servos to be connected to the flight controller while copters
@@ -51,6 +59,7 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 
 ### Option A) MCU shortcut protected
 ```mermaid
+%% WILL NOT RENDER IN MOBILE APP
 flowchart LR
     A[BAT: 8..25V] -.-> B(BEC 10V-2A cont)
 
@@ -80,6 +89,7 @@ flowchart LR
 ```
 ### Option B) component reduction
 ```mermaid
+%% WILL NOT RENDER IN MOBILE APP
 flowchart LR
     A[BAT: 8..25V] -.-> B(BEC 10V-2A cont)
 
