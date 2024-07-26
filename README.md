@@ -89,6 +89,7 @@ flowchart LR
 ```
 ### Option B) component reduction
 ```mermaid
+%% WILL NOT RENDER IN MOBILE APP
 flowchart LR
     A[BAT: 8..25V] -.-> B(BEC 10V-2A cont)
 
