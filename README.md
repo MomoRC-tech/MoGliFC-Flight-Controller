@@ -59,6 +59,7 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 
 ### Option A) MCU shortcut protected
 ```mermaid
+%% WILL NOT RENDER IN MOBILE APP
 flowchart LR
     A[BAT: 8..25V] -.-> B(BEC 10V-2A cont)
 
