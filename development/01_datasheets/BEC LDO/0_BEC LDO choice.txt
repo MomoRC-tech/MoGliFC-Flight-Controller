@@ -1,0 +1,31 @@
+______________________________
+SO-8EP: 5x6mm
+QFN-16: 3x3mm
+TSOT-26: 3x3mm
+
+
+BEC:
+- TPS62933: 3.8...30V, 2/3A, JLCPCB: yes
+  (EMI friendly: TPS62932, TPS62933, TPS62933P and TPS62933O)
+
+- TPS54202 28V, 2A (from unknown source)
+- TPS5450  36V, 5A, JLC yes
+
+- TPS54560DDAR      58V, 5A   JLC yes !!!! Vx !!!
+
+
+[AP6-<4=40V><35=3.5A>]
+- Diodes AP64200    40V, 2A,     jlc yes     --> 5x6mm!, 0.6€
+- diodes AP64352QSP 40V, 3.5A,   JLC yes     --> 5x6mm!, 1.23€  --> prio
+- diodes AP64351    40V, 3.5A    JLC yes     --> 5x6mm!, 1.00€
+- diodes AP63300  32V, 3A,       jlc yes     --> 3x3mm, 0.5€
+
+- MPS
+-MPQ4323GDE  34V, 3A, jlc yes   --> 2x3mm, 2,8€, automotive   --> prio
+
+TI:
+-TPS62933DRLR  30V  3A jlc yes     --> 1.6x2.1mm  0.6€
+- TPSM33625   36(40)V  2.5A   jlc yes  --> 3.5x4.5mm incl inductor  2.8€  ---> BEC-FC
+
+BEC fixed 3V3:
+- Diodes AP63200/AP63201/AP63203/AP63205   2A/3V3 --> JLC yes, 0.4€
