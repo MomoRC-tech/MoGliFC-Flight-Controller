@@ -1,4 +1,4 @@
-23698486563146019
+23701932118674812
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96656,12 +96656,19 @@ Tactile Switch
 2
 2
 custom_Library
+TFBGA100
+
+STM32H753VIH6 
+0
+100
+100
+custom_Library
 TPSM33625RDNR
 
 TPSM33625RDNR 
 0
-23
-23
+22
+22
 custom_Library
 U263241N4BQC111
 U263-241N-4BQC11-1-2
@@ -96669,6 +96676,13 @@ Connector
 0
 30
 30
+custom_Library
+USB-3.1-SMD_U262-161N-4BVC11
+
+
+0
+18
+13
 custom_Library
 XDCR_BMI270
 

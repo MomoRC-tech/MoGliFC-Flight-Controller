@@ -1,9 +1,0 @@
-Manufacturer=XKB Connectivity
-PartNumber=U263-241N-4BQC11-1
-PartCategory=Connector
-PackageCategory=Other
-PinCount=28
-Version=2.4
-Released=2019-09-24 12:44:59
-Downloaded=2022-09-16 23:09:45
-3D=Y
