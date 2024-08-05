@@ -44,7 +44,7 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 * OSD: AT7456E
 * BLACKBOX: 128MB
 
-* expressLRS receiver
+* expressLRS 3.x true diversity receiver (Gemini compatible)
 
 ## I/O
 * 7x UARTs
