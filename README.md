@@ -28,9 +28,9 @@ The second extension option is a larger frame which allows the MoGliFC to be pla
 with the USB interface as well es the CAN/CAN-FD externally available turning the MogliFC into a general
 purpose CAN-FD interface. This second extension also holds a SWD (single wire debug) interface for easy debugging.
 
-![PCB mechanical concept](documentation/images/PCB_concept.svg "PCB mechanical concept")
+![PCB mechanical concept](documentation/images/doc_MoGliFC_PCB_concept.svg "PCB mechanical concept")
 
-[edit online with draw.io](https://app.diagrams.net/#HMomoRC-tech%2FMoGliFC%2Fmain%2Fdocumentation%2Fimages%2FPCB_concept.svg)
+[edit online with draw.io](https://app.diagrams.net/#HMomoRC-tech%2FMoGliFC%2Fmain%2Fdocumentation%2Fimages%2Fdoc_MoGliFC_PCB_concept.svg)
 
 # Features
 ## Main
@@ -56,6 +56,10 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 * BEC 10V 2A cont., 3A peak (VTX/camera) (Wing/Debug only)
 * BEC Vx 8A cont., 10A peak (servos, 5V with 6/7.4V option) (Wing/Debug only)  
 * LDO 3.3V 500mA (external)   
+
+![Power_Concept](documentation/images/doc_MoGliFC_PCB_concept.svg "PCB mechanical concept")
+
+[edit online with draw.io](https://app.diagrams.net/#HMomoRC-tech%2FMoGliFC%2Fmain%2Fdocumentation%2Fimages%2Fdoc_MoGliFC_PCB_concept.svg)
 
 ### Option A) MCU shortcut protected
 ```mermaid
