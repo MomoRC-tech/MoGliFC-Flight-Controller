@@ -1,4 +1,4 @@
-23701932118674812
+23703655169000573
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96652,6 +96652,13 @@ custom_Library
 SW_SPST_B3U-1000P-B_C145874
 Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, with Boss
 Tactile Switch
+0
+2
+2
+custom_Library
+Schottky BA340 SMA_L4.4-W2.6-LS5.0-RD
+
+
 0
 2
 2

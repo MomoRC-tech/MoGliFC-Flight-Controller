@@ -4329,126 +4329,6 @@
 				)
 			)
 		)
-		(symbol "custom_Library:5V_USB"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "5V_USB"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"5V_USB\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "5V_USB_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "5V_USB_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "custom_Library:BMI270"
 			(pin_names
 				(offset 1.016)
@@ -7761,126 +7641,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -8115,12 +7875,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1630cbef-2803-478a-baf1-9a9d8eb39094")
-	)
-	(junction
-		(at 317.5 359.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16e09d47-ac6c-494b-8271-7ca32df77592")
 	)
 	(junction
 		(at 99.06 356.87)
@@ -8435,6 +8189,12 @@
 		(uuid "a70dd205-8ef3-45e2-ada2-b7fd0c7f2a60")
 	)
 	(junction
+		(at 318.77 365.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae1070ec-2bda-4eba-939e-3a17109336c9")
+	)
+	(junction
 		(at 71.12 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8681,10 +8441,6 @@
 	(no_connect
 		(at 67.31 118.11)
 		(uuid "b540b8a0-1e4f-4306-acc1-cf9e2c8fa064")
-	)
-	(no_connect
-		(at 113.03 120.65)
-		(uuid "b5c5bd78-90ed-452a-8c0b-df788256ca70")
 	)
 	(no_connect
 		(at 113.03 163.83)
@@ -9056,6 +8812,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 365.76) (xy 318.77 382.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b3d8d9-8607-408a-8ec9-d98fe811c370")
+	)
+	(wire
+		(pts
 			(xy 207.01 374.65) (xy 207.01 373.38)
 		)
 		(stroke
@@ -9396,7 +9162,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 382.27) (xy 322.58 382.27)
+			(xy 318.77 382.27) (xy 322.58 382.27)
 		)
 		(stroke
 			(width 0)
@@ -9443,6 +9209,16 @@
 			(type default)
 		)
 		(uuid "3101f20e-8f9a-4217-b9fa-19630c36760f")
+	)
+	(wire
+		(pts
+			(xy 113.03 120.65) (xy 121.92 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fcf9b2-cad8-41a3-a50a-6c8d30027ab7")
 	)
 	(wire
 		(pts
@@ -9746,16 +9522,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 351.79) (xy 317.5 359.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "472cb275-5a8d-4d31-88c3-d8e33e8b6150")
-	)
-	(wire
-		(pts
 			(xy 113.03 97.79) (xy 123.19 97.79)
 		)
 		(stroke
@@ -9913,6 +9679,16 @@
 			(type default)
 		)
 		(uuid "4c68225c-f935-47ae-a04b-ca3cb4fc26be")
+	)
+	(wire
+		(pts
+			(xy 287.02 172.72) (xy 292.1 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd94732-552a-4ffb-bd04-fe62ed474846")
 	)
 	(wire
 		(pts
@@ -11036,7 +10812,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 177.8) (xy 292.1 190.5)
+			(xy 292.1 172.72) (xy 292.1 190.5)
 		)
 		(stroke
 			(width 0)
@@ -11146,7 +10922,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 359.41) (xy 317.5 382.27)
+			(xy 318.77 361.95) (xy 318.77 365.76)
 		)
 		(stroke
 			(width 0)
@@ -11956,16 +11732,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 359.41) (xy 311.15 358.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfa66ccf-2be4-40f5-96b7-d9151ffaeaea")
-	)
-	(wire
-		(pts
 			(xy 113.03 171.45) (xy 120.65 171.45)
 		)
 		(stroke
@@ -12336,7 +12102,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 351.79) (xy 365.76 379.73)
+			(xy 365.76 354.33) (xy 365.76 379.73)
 		)
 		(stroke
 			(width 0)
@@ -12483,6 +12249,16 @@
 			(type default)
 		)
 		(uuid "df42fbdd-4f38-4c81-9e8e-7d52e0f33525")
+	)
+	(wire
+		(pts
+			(xy 312.42 365.76) (xy 318.77 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe38817-ed64-465a-a7b7-93b51515e5a3")
 	)
 	(wire
 		(pts
@@ -12866,16 +12642,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 359.41) (xy 317.5 359.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f47ecbf7-3e66-4f5a-86bb-25fee66053ac")
-	)
-	(wire
-		(pts
 			(xy 99.06 353.06) (xy 99.06 356.87)
 		)
 		(stroke
@@ -13093,16 +12859,6 @@
 			(type default)
 		)
 		(uuid "fe4528e4-ba49-4afb-8870-9c84f6b5dcae")
-	)
-	(wire
-		(pts
-			(xy 113.03 113.03) (xy 123.19 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe6a542b-0807-4898-bc39-212f62e9edf3")
 	)
 	(image
 		(at 25.4 330.2)
@@ -14959,7 +14715,7 @@
 	)
 	(text "ESR<100mO"
 		(exclude_from_sim no)
-		(at 30.988 183.896 0)
+		(at 23.368 199.136 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15015,7 +14771,7 @@
 		)
 		(uuid "417cc41f-e434-45b2-8f21-6a5d0218cb82")
 	)
-	(text "Check:\n- ADC2-4: direct to pin???\n- ADC1: voltage scale/divider"
+	(text "Check:\n- ADC2-4: direct to pin???\n- ADC1: voltage scale/divider\n-airspeedsensor special scaling? 0 - 6V?"
 		(exclude_from_sim no)
 		(at 177.292 348.996 0)
 		(effects
@@ -17008,7 +16764,7 @@
 	)
 	(global_label "SPI3_MOSI_PIN"
 		(shape input)
-		(at 123.19 113.03 0)
+		(at 121.92 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17018,7 +16774,7 @@
 		)
 		(uuid "7308d200-0237-46b3-9046-d33c8e3a4ab4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.2057 113.03 0)
+			(at 138.9357 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17708,6 +17464,28 @@
 			)
 		)
 	)
+	(global_label "5V_USB"
+		(shape input)
+		(at 365.76 354.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0dc7e65-d319-4c92-a60a-641069c14dc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 365.76 344.2691 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PINIO_VTX"
 		(shape input)
 		(at 57.15 153.67 180)
@@ -18026,6 +17804,28 @@
 		(uuid "d9c05926-926b-4529-b20e-6e208c44ca76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 43.2186 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_BUS"
+		(shape input)
+		(at 287.02 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da60a61f-670d-4b44-b0b4-88044d1395ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.9591 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18431,6 +18231,28 @@
 			)
 		)
 	)
+	(global_label "5V_USB"
+		(shape input)
+		(at 318.77 361.95 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa9461ba-e07c-4c57-9689-17b6fda6a127")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 318.77 351.8891 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART8_RX_PIN"
 		(shape input)
 		(at 457.2 320.04 0)
@@ -18493,7 +18315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3_SENS"
+		(property "Value" "3V3_MCU_OSD"
 			(at 194.31 252.73 0)
 			(effects
 				(font
@@ -18593,16 +18415,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "empty"
-			(at 167.64 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 167.64 308.61 0)
 			(effects
 				(font
@@ -18629,7 +18442,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 167.64 308.61 0)
 			(effects
 				(font
@@ -18639,6 +18452,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 167.64 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 167.64 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 167.64 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 167.64 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 167.64 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 167.64 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 167.64 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 167.64 308.61 0)
 			(effects
 				(font
@@ -18818,7 +18694,61 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
+		(property "Mouser Testing Part Number" ""
+			(at 214.63 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 214.63 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 214.63 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 214.63 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 214.63 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "-"
+			(at 214.63 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 214.63 323.85 0)
 			(effects
 				(font
@@ -18902,16 +18832,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 83.82 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 83.82 34.29 0)
 			(effects
 				(font
@@ -18939,6 +18860,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 83.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 83.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 83.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 83.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 83.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 83.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 83.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 83.82 34.29 0)
 			(effects
 				(font
@@ -19016,16 +19000,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25087"
-			(at 316.23 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 316.23 289.56 0)
 			(effects
 				(font
@@ -19053,6 +19028,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 316.23 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 316.23 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 316.23 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 316.23 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 316.23 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 316.23 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25087"
+			(at 316.23 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 316.23 289.56 0)
 			(effects
 				(font
@@ -19131,16 +19169,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "x"
-			(at 337.82 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
+		(property "AVAILABILITY" ""
 			(at 337.82 283.21 0)
 			(effects
 				(font
@@ -19167,7 +19196,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 337.82 283.21 0)
 			(effects
 				(font
@@ -19177,6 +19206,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 337.82 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 337.82 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 337.82 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 337.82 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 337.82 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 337.82 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 337.82 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 337.82 283.21 0)
 			(effects
 				(font
@@ -19204,6 +19296,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 312.42 365.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ce6bd2e-b8af-4cbe-99c9-ea4d6adbbae4")
+		(property "Reference" "#FLG03"
+			(at 312.42 363.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 309.88 361.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 312.42 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc3dda4a-ad59-422e-9245-f67a5fadbbab")
+		)
+		(instances
+			(project "MoGliFC"
+				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "custom_Library:3V3_MCU")
 		(at 246.38 172.72 0)
 		(unit 1)
@@ -19222,7 +19380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3_MCU"
+		(property "Value" "3V3_MCU_OSD"
 			(at 246.38 167.64 0)
 			(effects
 				(font
@@ -19287,8 +19445,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3_MCU"
-			(at 247.65 133.096 0)
+		(property "Value" "3V3_MCU_OSD"
+			(at 253.238 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19455,7 +19613,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "Unavailable"
+		(property "AVAILABILITY" ""
 			(at 128.27 262.89 0)
 			(effects
 				(font
@@ -19505,7 +19663,61 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
+		(property "Mouser Testing Part Number" ""
+			(at 113.03 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 113.03 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 113.03 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 113.03 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 113.03 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "-"
+			(at 113.03 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 113.03 276.86 0)
 			(effects
 				(font
@@ -19602,16 +19814,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 133.35 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 133.35 273.05 0)
 			(effects
 				(font
@@ -19639,6 +19842,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 133.35 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 133.35 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 133.35 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 133.35 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 133.35 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 133.35 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 133.35 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 133.35 273.05 0)
 			(effects
 				(font
@@ -19716,16 +19982,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C59461"
-			(at 248.92 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 248.92 303.53 0)
 			(effects
 				(font
@@ -19753,6 +20010,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 248.92 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 248.92 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 248.92 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 248.92 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 248.92 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 248.92 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C59461"
+			(at 248.92 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 248.92 303.53 0)
 			(effects
 				(font
@@ -19893,16 +20213,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25744"
-			(at 240.03 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 240.03 182.88 0)
 			(effects
 				(font
@@ -19930,6 +20241,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 240.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 240.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 240.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 240.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 240.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 240.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25744"
+			(at 240.03 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 240.03 182.88 0)
 			(effects
 				(font
@@ -20073,16 +20447,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "empty"
-			(at 275.59 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 275.59 307.34 0)
 			(effects
 				(font
@@ -20109,7 +20474,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 275.59 307.34 0)
 			(effects
 				(font
@@ -20119,6 +20484,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 275.59 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 275.59 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 275.59 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 275.59 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 275.59 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 275.59 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 275.59 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 275.59 307.34 0)
 			(effects
 				(font
@@ -20193,16 +20621,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "x"
-			(at 487.68 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
+		(property "AVAILABILITY" ""
 			(at 487.68 250.19 0)
 			(effects
 				(font
@@ -20229,7 +20648,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 487.68 250.19 0)
 			(effects
 				(font
@@ -20239,6 +20658,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 487.68 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 487.68 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 487.68 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 487.68 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 487.68 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 487.68 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 487.68 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 487.68 250.19 0)
 			(effects
 				(font
@@ -20313,16 +20795,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C59461"
-			(at 248.92 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 248.92 311.15 0)
 			(effects
 				(font
@@ -20350,6 +20823,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 248.92 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 248.92 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 248.92 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 248.92 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 248.92 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 248.92 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C59461"
+			(at 248.92 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 248.92 311.15 0)
 			(effects
 				(font
@@ -20427,16 +20963,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23630"
-			(at 41.91 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 41.91 179.07 0)
 			(effects
 				(font
@@ -20464,6 +20991,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 41.91 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 41.91 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 41.91 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 41.91 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 41.91 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 41.91 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C23630"
+			(at 41.91 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 41.91 179.07 0)
 			(effects
 				(font
@@ -20541,16 +21131,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25900"
-			(at 59.69 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 59.69 267.97 0)
 			(effects
 				(font
@@ -20578,6 +21159,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 59.69 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 59.69 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 59.69 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 59.69 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 59.69 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 59.69 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25900"
+			(at 59.69 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 59.69 267.97 0)
 			(effects
 				(font
@@ -20656,16 +21300,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "x"
-			(at 337.82 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
+		(property "AVAILABILITY" ""
 			(at 337.82 318.77 0)
 			(effects
 				(font
@@ -20692,7 +21327,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 337.82 318.77 0)
 			(effects
 				(font
@@ -20702,6 +21337,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 337.82 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 337.82 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 337.82 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 337.82 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 337.82 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 337.82 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 337.82 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 337.82 318.77 0)
 			(effects
 				(font
@@ -20782,16 +21480,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C19666"
-			(at 21.59 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 21.59 34.29 0)
 			(effects
 				(font
@@ -20819,6 +21508,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 21.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 21.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 21.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 21.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 21.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 21.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C19666"
+			(at 21.59 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 21.59 34.29 0)
 			(effects
 				(font
@@ -20896,15 +21648,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 207.01 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "AVAILABILITY" ""
 			(at 207.01 360.68 0)
 			(effects
@@ -20941,6 +21684,60 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Testing Part Number" ""
+			(at 207.01 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 207.01 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 207.01 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 207.01 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 207.01 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
+			(at 207.01 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a3cf8b8-98a7-4d76-b5a1-4c194263526a")
 		)
@@ -20951,127 +21748,6 @@
 			(project "MoGliFC"
 				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
 					(reference "R_adc1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 218.44 358.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ab7f5f0-3070-4c40-846a-bd6723e279bc")
-		(property "Reference" "J7"
-			(at 221.615 356.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "vU"
-			(at 221.615 359.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Momo footprints Library:PinHeader_1x01_P2.54mm_Vertical"
-			(at 218.44 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
-			(at 218.44 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
-			(at 218.44 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "-"
-			(at 218.44 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier and ref" ""
-			(at 218.44 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB BOM" "0"
-			(at 218.44 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "0"
-			(at 218.44 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc68308d-aeae-4721-837c-fe579f97cb63")
-		)
-		(instances
-			(project "MoGliFC"
-				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -21131,16 +21807,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25900"
-			(at 27.94 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 27.94 267.97 0)
 			(effects
 				(font
@@ -21168,6 +21835,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 27.94 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 27.94 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 27.94 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 27.94 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 27.94 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 27.94 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25900"
+			(at 27.94 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 27.94 267.97 0)
 			(effects
 				(font
@@ -21245,16 +21975,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25900"
-			(at 64.77 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 64.77 267.97 0)
 			(effects
 				(font
@@ -21282,6 +22003,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 64.77 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 64.77 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 64.77 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 64.77 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 64.77 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 64.77 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25900"
+			(at 64.77 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 64.77 267.97 0)
 			(effects
 				(font
@@ -21357,16 +22141,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25744"
-			(at 172.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 172.72 132.08 0)
 			(effects
 				(font
@@ -21394,6 +22169,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 172.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 172.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 172.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 172.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 172.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 172.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25744"
+			(at 172.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 172.72 132.08 0)
 			(effects
 				(font
@@ -21435,8 +22273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3_MCU"
-			(at 200.66 118.618 0)
+		(property "Value" "3V3_MCU_OSD"
+			(at 196.85 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21538,16 +22376,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "empty"
-			(at 486.41 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 486.41 294.64 0)
 			(effects
 				(font
@@ -21574,7 +22403,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 486.41 294.64 0)
 			(effects
 				(font
@@ -21584,6 +22413,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 486.41 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 486.41 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 486.41 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 486.41 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 486.41 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 486.41 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 486.41 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 486.41 294.64 0)
 			(effects
 				(font
@@ -21721,16 +22613,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25133"
-			(at 173.99 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 173.99 312.42 0)
 			(effects
 				(font
@@ -21766,6 +22649,69 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Testing Part Number" ""
+			(at 173.99 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 173.99 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 173.99 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 173.99 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 173.99 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25133"
+			(at 173.99 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
+			(at 173.99 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c580f553-9161-4762-a381-bc86822dd737")
 		)
@@ -21776,71 +22722,6 @@
 			(project "MoGliFC"
 				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
 					(reference "R_osd1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 292.1 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30efc682-451f-42f1-9497-285f4530b656")
-		(property "Reference" "#PWR057"
-			(at 292.1 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 292.1 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.1 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 292.1 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ef102a5-af64-4ddf-bab9-87c8b2616d68")
-		)
-		(instances
-			(project "MoGliFC"
-				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -21900,16 +22781,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C72043"
-			(at 34.29 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 34.29 227.33 0)
 			(effects
 				(font
@@ -21955,6 +22827,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 34.29 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 34.29 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 34.29 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 34.29 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 34.29 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 34.29 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C72043"
+			(at 34.29 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 34.29 227.33 0)
 			(effects
 				(font
@@ -22032,16 +22967,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25087"
-			(at 316.23 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 316.23 254 0)
 			(effects
 				(font
@@ -22069,6 +22995,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 316.23 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 316.23 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 316.23 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 316.23 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 316.23 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 316.23 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25087"
+			(at 316.23 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 316.23 254 0)
 			(effects
 				(font
@@ -22276,16 +23265,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25900"
-			(at 33.02 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 33.02 267.97 0)
 			(effects
 				(font
@@ -22313,6 +23293,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 33.02 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 33.02 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 33.02 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 33.02 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 33.02 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 33.02 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25900"
+			(at 33.02 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 33.02 267.97 0)
 			(effects
 				(font
@@ -22586,16 +23629,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "empty"
-			(at 486.41 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 486.41 280.67 0)
 			(effects
 				(font
@@ -22622,7 +23656,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 486.41 280.67 0)
 			(effects
 				(font
@@ -22632,6 +23666,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 486.41 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 486.41 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 486.41 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 486.41 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 486.41 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 486.41 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 486.41 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 486.41 280.67 0)
 			(effects
 				(font
@@ -22705,16 +23802,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25905"
-			(at 337.82 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 337.82 394.97 0)
 			(effects
 				(font
@@ -22742,6 +23830,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 337.82 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 337.82 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 337.82 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 337.82 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 337.82 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 337.82 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25905"
+			(at 337.82 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 337.82 394.97 0)
 			(effects
 				(font
@@ -22819,16 +23970,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 330.2 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 330.2 200.66 0)
 			(effects
 				(font
@@ -22856,6 +23998,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 330.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 330.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 330.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 330.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 330.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 330.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 330.2 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 330.2 200.66 0)
 			(effects
 				(font
@@ -22930,7 +24135,61 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
+		(property "Mouser Testing Part Number" ""
+			(at 57.15 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 57.15 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 57.15 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 57.15 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 57.15 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "-"
+			(at 57.15 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 57.15 306.07 0)
 			(effects
 				(font
@@ -23049,7 +24308,61 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C145874"
+		(property "Mouser Testing Part Number" ""
+			(at 185.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 185.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 185.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 185.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 185.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C145874"
+			(at 185.42 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 185.42 125.73 0)
 			(effects
 				(font
@@ -23203,7 +24516,61 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
+		(property "Mouser Testing Part Number" ""
+			(at 293.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 293.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 293.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 293.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 293.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "-"
+			(at 293.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 293.37 185.42 0)
 			(effects
 				(font
@@ -23302,16 +24669,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 248.92 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 248.92 276.86 0)
 			(effects
 				(font
@@ -23339,6 +24697,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 248.92 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 248.92 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 248.92 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 248.92 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 248.92 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 248.92 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 248.92 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 248.92 276.86 0)
 			(effects
 				(font
@@ -23480,8 +24901,62 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C319148"
-			(at 340.36 402.59 0)
+		(property "Mouser Testing Part Number" ""
+			(at 340.36 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 340.36 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 340.36 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 340.36 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 340.36 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C319148"
+			(at 340.36 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
+			(at 340.36 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23600,16 +25075,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C16772"
-			(at 118.11 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 118.11 320.04 0)
 			(effects
 				(font
@@ -23637,6 +25103,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 118.11 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 118.11 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 118.11 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 118.11 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 118.11 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 118.11 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C16772"
+			(at 118.11 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 118.11 320.04 0)
 			(effects
 				(font
@@ -23714,16 +25243,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 257.81 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 257.81 276.86 0)
 			(effects
 				(font
@@ -23751,6 +25271,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 257.81 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 257.81 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 257.81 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 257.81 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 257.81 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 257.81 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 257.81 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 257.81 276.86 0)
 			(effects
 				(font
@@ -23826,15 +25409,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 17.78 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "AVAILABILITY" ""
 			(at 17.78 238.76 0)
 			(effects
@@ -23863,6 +25437,60 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 17.78 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 17.78 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 17.78 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 17.78 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 17.78 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 17.78 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 17.78 238.76 0)
 			(effects
 				(font
@@ -23938,16 +25566,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8218"
-			(at 110.49 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 110.49 233.68 0)
 			(effects
 				(font
@@ -23975,6 +25594,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 110.49 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 110.49 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 110.49 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 110.49 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 110.49 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 110.49 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C8218"
+			(at 110.49 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 110.49 233.68 0)
 			(effects
 				(font
@@ -24050,15 +25732,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 34.29 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "AVAILABILITY" ""
 			(at 34.29 238.76 0)
 			(effects
@@ -24087,6 +25760,60 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 34.29 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 34.29 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 34.29 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 34.29 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 34.29 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 34.29 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 34.29 238.76 0)
 			(effects
 				(font
@@ -24128,7 +25855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3_SENS"
+		(property "Value" "3V3_MCU_OSD"
 			(at 30.734 259.08 0)
 			(effects
 				(font
@@ -24359,16 +26086,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25744"
-			(at 233.68 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 233.68 182.88 0)
 			(effects
 				(font
@@ -24396,6 +26114,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 233.68 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 233.68 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 233.68 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 233.68 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 233.68 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 233.68 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25744"
+			(at 233.68 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 233.68 182.88 0)
 			(effects
 				(font
@@ -24474,16 +26255,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "x"
-			(at 486.41 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
+		(property "AVAILABILITY" ""
 			(at 486.41 274.32 0)
 			(effects
 				(font
@@ -24510,7 +26282,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 486.41 274.32 0)
 			(effects
 				(font
@@ -24520,6 +26292,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 486.41 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 486.41 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 486.41 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 486.41 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 486.41 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 486.41 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 486.41 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 486.41 274.32 0)
 			(effects
 				(font
@@ -24559,7 +26394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3_SENS"
+		(property "Value" "3V3_IMU"
 			(at 44.45 295.91 0)
 			(effects
 				(font
@@ -24660,16 +26495,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 109.22 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 109.22 370.84 0)
 			(effects
 				(font
@@ -24697,6 +26523,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 109.22 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 109.22 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 109.22 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 109.22 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 109.22 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 109.22 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 109.22 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 109.22 370.84 0)
 			(effects
 				(font
@@ -24840,16 +26729,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "x"
-			(at 337.82 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
+		(property "AVAILABILITY" ""
 			(at 337.82 274.32 0)
 			(effects
 				(font
@@ -24876,7 +26756,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 337.82 274.32 0)
 			(effects
 				(font
@@ -24886,6 +26766,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 337.82 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 337.82 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 337.82 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 337.82 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 337.82 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 337.82 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 337.82 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 337.82 274.32 0)
 			(effects
 				(font
@@ -24964,16 +26907,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25905"
-			(at 337.82 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 337.82 355.6 0)
 			(effects
 				(font
@@ -25001,6 +26935,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 337.82 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 337.82 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 337.82 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 337.82 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 337.82 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 337.82 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25905"
+			(at 337.82 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 337.82 355.6 0)
 			(effects
 				(font
@@ -25079,16 +27076,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "x"
-			(at 337.82 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
+		(property "AVAILABILITY" ""
 			(at 337.82 300.99 0)
 			(effects
 				(font
@@ -25115,7 +27103,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 337.82 300.99 0)
 			(effects
 				(font
@@ -25125,6 +27113,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 337.82 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 337.82 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 337.82 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 337.82 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 337.82 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 337.82 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 337.82 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 337.82 300.99 0)
 			(effects
 				(font
@@ -25206,16 +27257,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 142.24 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 142.24 273.05 0)
 			(effects
 				(font
@@ -25243,6 +27285,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 142.24 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 142.24 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 142.24 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 142.24 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 142.24 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 142.24 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 142.24 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 142.24 273.05 0)
 			(effects
 				(font
@@ -25320,16 +27425,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C72041"
-			(at 17.78 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 17.78 227.33 0)
 			(effects
 				(font
@@ -25366,6 +27462,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 17.78 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 17.78 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 17.78 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 17.78 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 17.78 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 17.78 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C72041"
+			(at 17.78 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 17.78 227.33 0)
 			(effects
 				(font
@@ -25443,16 +27602,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2286"
-			(at 53.34 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 53.34 227.33 0)
 			(effects
 				(font
@@ -25480,6 +27630,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 53.34 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 53.34 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 53.34 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 53.34 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 53.34 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 53.34 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C2286"
+			(at 53.34 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 53.34 227.33 0)
 			(effects
 				(font
@@ -25557,16 +27770,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 114.3 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 114.3 370.84 0)
 			(effects
 				(font
@@ -25594,6 +27798,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 114.3 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 114.3 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 114.3 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 114.3 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 114.3 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 114.3 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 114.3 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 114.3 370.84 0)
 			(effects
 				(font
@@ -25671,16 +27938,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
-			(at 121.92 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 121.92 227.33 0)
 			(effects
 				(font
@@ -25707,7 +27965,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 121.92 227.33 0)
 			(effects
 				(font
@@ -25717,6 +27975,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 121.92 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 121.92 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 121.92 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 121.92 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 121.92 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 121.92 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "-"
+			(at 121.92 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 121.92 227.33 0)
 			(effects
 				(font
@@ -25830,7 +28151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" "-"
 			(at 82.55 374.65 0)
 			(effects
 				(font
@@ -25900,7 +28221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "Availability" ""
 			(at 82.55 374.65 0)
 			(effects
 				(font
@@ -25920,7 +28241,52 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
+		(property "Mouser Testing Part Number" ""
+			(at 82.55 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 82.55 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 82.55 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 82.55 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 82.55 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "-"
 			(at 82.55 374.65 0)
 			(effects
 				(font
@@ -26034,16 +28400,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25087"
-			(at 316.23 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 316.23 262.89 0)
 			(effects
 				(font
@@ -26071,6 +28428,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 316.23 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 316.23 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 316.23 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 316.23 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 316.23 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 316.23 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25087"
+			(at 316.23 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 316.23 262.89 0)
 			(effects
 				(font
@@ -26279,16 +28699,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 292.1 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 292.1 199.39 0)
 			(effects
 				(font
@@ -26316,6 +28727,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 292.1 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 292.1 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 292.1 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 292.1 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 292.1 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 292.1 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 292.1 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 292.1 199.39 0)
 			(effects
 				(font
@@ -26394,16 +28868,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "empty"
-			(at 217.17 387.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 217.17 387.35 0)
 			(effects
 				(font
@@ -26430,7 +28895,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 217.17 387.35 0)
 			(effects
 				(font
@@ -26440,6 +28905,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 217.17 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 217.17 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 217.17 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 217.17 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 217.17 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 217.17 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 217.17 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 217.17 387.35 0)
 			(effects
 				(font
@@ -26580,16 +29108,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25087"
-			(at 316.23 280.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 316.23 280.67 0)
 			(effects
 				(font
@@ -26617,6 +29136,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 316.23 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 316.23 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 316.23 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 316.23 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 316.23 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 316.23 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25087"
+			(at 316.23 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 316.23 280.67 0)
 			(effects
 				(font
@@ -26694,16 +29276,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 45.72 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 45.72 34.29 0)
 			(effects
 				(font
@@ -26731,6 +29304,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 45.72 34.29 0)
 			(effects
 				(font
@@ -26806,15 +29442,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 53.34 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "AVAILABILITY" ""
 			(at 53.34 238.76 0)
 			(effects
@@ -26843,6 +29470,60 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 53.34 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 53.34 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 53.34 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 53.34 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 53.34 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 53.34 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 53.34 238.76 0)
 			(effects
 				(font
@@ -26921,16 +29602,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "x"
-			(at 337.82 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
+		(property "AVAILABILITY" ""
 			(at 337.82 309.88 0)
 			(effects
 				(font
@@ -26957,7 +29629,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 337.82 309.88 0)
 			(effects
 				(font
@@ -26967,6 +29639,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 337.82 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 337.82 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 337.82 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 337.82 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 337.82 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 337.82 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 337.82 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 337.82 309.88 0)
 			(effects
 				(font
@@ -27012,7 +29747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3_MCU"
+		(property "Value" "3V3_MCU_OSD"
 			(at 82.55 46.99 0)
 			(effects
 				(font
@@ -27178,16 +29913,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "empty"
-			(at 486.41 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 486.41 290.83 0)
 			(effects
 				(font
@@ -27214,7 +29940,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 486.41 290.83 0)
 			(effects
 				(font
@@ -27224,6 +29950,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 486.41 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 486.41 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 486.41 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 486.41 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 486.41 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 486.41 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 486.41 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 486.41 290.83 0)
 			(effects
 				(font
@@ -27364,16 +30153,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23630"
-			(at 57.15 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 57.15 179.07 0)
 			(effects
 				(font
@@ -27401,6 +30181,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C23630"
+			(at 57.15 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 57.15 179.07 0)
 			(effects
 				(font
@@ -27478,16 +30321,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25087"
-			(at 316.23 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 316.23 307.34 0)
 			(effects
 				(font
@@ -27515,6 +30349,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 316.23 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 316.23 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 316.23 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 316.23 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 316.23 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 316.23 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25087"
+			(at 316.23 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 316.23 307.34 0)
 			(effects
 				(font
@@ -27592,16 +30489,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 38.1 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -27629,6 +30517,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 38.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 38.1 58.42 0)
 			(effects
 				(font
@@ -27706,16 +30657,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 33.02 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 33.02 34.29 0)
 			(effects
 				(font
@@ -27751,6 +30693,69 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Testing Part Number" ""
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a8c97d3-ab33-4de0-bf99-690fd5948db7")
 		)
@@ -27775,7 +30780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a1e917c-c17c-4ba0-9d41-d372a4fdbc02")
-		(property "Reference" "J2"
+		(property "Reference" "J_OSD1"
 			(at 186.055 260.35 90)
 			(effects
 				(font
@@ -27820,16 +30825,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "x"
-			(at 189.23 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
+		(property "AVAILABILITY" ""
 			(at 189.23 264.16 0)
 			(effects
 				(font
@@ -27856,7 +30852,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 189.23 264.16 0)
 			(effects
 				(font
@@ -27874,6 +30870,69 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Testing Part Number" ""
+			(at 189.23 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 189.23 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 189.23 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 189.23 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 189.23 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 189.23 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
+			(at 189.23 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e997517-c85b-4078-9d78-1a58b4d338f2")
 		)
@@ -27883,7 +30942,7 @@
 		(instances
 			(project "MoGliFC"
 				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
-					(reference "J2")
+					(reference "J_OSD1")
 					(unit 1)
 				)
 			)
@@ -27941,16 +31000,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25744"
-			(at 330.2 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 330.2 168.91 0)
 			(effects
 				(font
@@ -27978,6 +31028,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 330.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 330.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 330.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 330.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 330.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 330.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25744"
+			(at 330.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 330.2 168.91 0)
 			(effects
 				(font
@@ -28186,16 +31299,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 71.12 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 71.12 34.29 0)
 			(effects
 				(font
@@ -28223,6 +31327,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 71.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 71.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 71.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 71.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 71.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 71.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 71.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 71.12 34.29 0)
 			(effects
 				(font
@@ -28300,16 +31467,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 58.42 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 58.42 34.29 0)
 			(effects
 				(font
@@ -28337,6 +31495,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 58.42 34.29 0)
 			(effects
 				(font
@@ -28412,16 +31633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 337.82 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 337.82 181.61 0)
 			(effects
 				(font
@@ -28449,6 +31661,60 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 337.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 337.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 337.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 337.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 337.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 337.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 337.82 181.61 0)
 			(effects
 				(font
@@ -28490,8 +31756,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3_MCU"
-			(at 58.166 221.234 0)
+		(property "Value" "3V3_MCU_OSD"
+			(at 61.976 219.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28591,16 +31857,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25087"
-			(at 316.23 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 316.23 316.23 0)
 			(effects
 				(font
@@ -28628,6 +31885,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 316.23 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 316.23 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 316.23 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 316.23 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 316.23 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 316.23 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25087"
+			(at 316.23 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 316.23 316.23 0)
 			(effects
 				(font
@@ -28670,7 +31990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3_SENS"
+		(property "Value" "3V3_IMU"
 			(at 113.03 295.91 0)
 			(effects
 				(font
@@ -28771,16 +32091,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C23733"
-			(at 105.41 323.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 105.41 323.85 0)
 			(effects
 				(font
@@ -28808,6 +32119,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 105.41 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 105.41 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 105.41 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 105.41 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 105.41 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 105.41 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C23733"
+			(at 105.41 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 105.41 323.85 0)
 			(effects
 				(font
@@ -28949,16 +32323,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25092"
-			(at 377.19 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 377.19 360.68 0)
 			(effects
 				(font
@@ -28986,6 +32351,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 377.19 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 377.19 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 377.19 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 377.19 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 377.19 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 377.19 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25092"
+			(at 377.19 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 377.19 360.68 0)
 			(effects
 				(font
@@ -29063,16 +32491,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 109.22 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 109.22 34.29 0)
 			(effects
 				(font
@@ -29100,6 +32519,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 109.22 34.29 0)
 			(effects
 				(font
@@ -29177,16 +32659,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
-			(at 400.05 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 400.05 173.99 0)
 			(effects
 				(font
@@ -29213,7 +32686,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 400.05 173.99 0)
 			(effects
 				(font
@@ -29223,6 +32696,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 400.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 400.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 400.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 400.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 400.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 400.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "-"
+			(at 400.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 400.05 173.99 0)
 			(effects
 				(font
@@ -29261,7 +32797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3_SENS"
+		(property "Value" "3V3_MCU_OSD"
 			(at 62.484 259.08 0)
 			(effects
 				(font
@@ -29303,71 +32839,6 @@
 			(project "MoGliFC"
 				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom_Library:5V_USB")
-		(at 317.5 351.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6dbc284-bee2-4783-b7a5-84305da976e5")
-		(property "Reference" "#PWR059"
-			(at 317.5 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V_USB"
-			(at 317.246 347.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 317.5 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 317.5 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V_USB\""
-			(at 317.5 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3181bda9-314c-4dd5-8e33-c90a06baf2a6")
-		)
-		(instances
-			(project "MoGliFC"
-				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
-					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -29492,16 +32963,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 96.52 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 96.52 34.29 0)
 			(effects
 				(font
@@ -29529,6 +32991,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 96.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 96.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 96.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 96.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 96.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 96.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 96.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 96.52 34.29 0)
 			(effects
 				(font
@@ -29604,16 +33129,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8218"
-			(at 110.49 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 110.49 227.33 0)
 			(effects
 				(font
@@ -29641,6 +33157,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 110.49 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 110.49 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 110.49 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 110.49 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 110.49 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 110.49 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C8218"
+			(at 110.49 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 110.49 227.33 0)
 			(effects
 				(font
@@ -29783,16 +33362,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
-			(at 121.92 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 121.92 233.68 0)
 			(effects
 				(font
@@ -29810,7 +33380,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 121.92 233.68 0)
 			(effects
 				(font
@@ -29820,6 +33390,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 121.92 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 121.92 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 121.92 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 121.92 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 121.92 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 121.92 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "-"
+			(at 121.92 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 121.92 233.68 0)
 			(effects
 				(font
@@ -29893,16 +33526,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25092"
-			(at 377.19 356.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 377.19 356.87 0)
 			(effects
 				(font
@@ -29930,6 +33554,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 377.19 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 377.19 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 377.19 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 377.19 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 377.19 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 377.19 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25092"
+			(at 377.19 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 377.19 356.87 0)
 			(effects
 				(font
@@ -30070,16 +33757,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25133"
-			(at 260.35 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 260.35 307.34 0)
 			(effects
 				(font
@@ -30107,6 +33785,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 260.35 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 260.35 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 260.35 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 260.35 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 260.35 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 260.35 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25133"
+			(at 260.35 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 260.35 307.34 0)
 			(effects
 				(font
@@ -30184,16 +33925,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "x"
-			(at 486.41 270.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
+		(property "AVAILABILITY" ""
 			(at 486.41 270.51 0)
 			(effects
 				(font
@@ -30220,7 +33952,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 486.41 270.51 0)
 			(effects
 				(font
@@ -30230,6 +33962,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 486.41 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 486.41 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 486.41 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 486.41 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 486.41 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 486.41 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 486.41 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 486.41 270.51 0)
 			(effects
 				(font
@@ -30334,7 +34129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3_MCU"
+		(property "Value" "3V3_MCU_OSD"
 			(at 21.59 25.4 0)
 			(effects
 				(font
@@ -30632,16 +34427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "empty"
-			(at 217.17 392.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 217.17 392.43 0)
 			(effects
 				(font
@@ -30668,7 +34454,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 217.17 392.43 0)
 			(effects
 				(font
@@ -30678,6 +34464,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 217.17 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 217.17 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 217.17 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 217.17 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 217.17 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 217.17 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 217.17 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 217.17 392.43 0)
 			(effects
 				(font
@@ -30752,16 +34601,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25087"
-			(at 316.23 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 316.23 298.45 0)
 			(effects
 				(font
@@ -30789,6 +34629,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 316.23 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 316.23 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 316.23 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 316.23 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 316.23 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 316.23 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25087"
+			(at 316.23 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 316.23 298.45 0)
 			(effects
 				(font
@@ -30966,7 +34869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "Availability" ""
 			(at 207.01 186.69 0)
 			(effects
 				(font
@@ -30976,7 +34879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" "-"
 			(at 207.01 186.69 0)
 			(effects
 				(font
@@ -30996,7 +34899,52 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
+		(property "Mouser Testing Part Number" ""
+			(at 207.01 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 207.01 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 207.01 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 207.01 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 207.01 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "-"
 			(at 207.01 186.69 0)
 			(effects
 				(font
@@ -31092,16 +35040,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 44.45 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 44.45 318.77 0)
 			(effects
 				(font
@@ -31129,6 +35068,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 44.45 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 44.45 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 44.45 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 44.45 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 44.45 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 44.45 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 44.45 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 44.45 318.77 0)
 			(effects
 				(font
@@ -31237,7 +35239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3_SENS"
+		(property "Value" "3V3_IMU"
 			(at 99.06 347.98 0)
 			(effects
 				(font
@@ -31303,7 +35305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3_SENS"
+		(property "Value" "3V3_IMU"
 			(at 142.24 259.08 0)
 			(effects
 				(font
@@ -31404,16 +35406,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 267.97 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 267.97 276.86 0)
 			(effects
 				(font
@@ -31449,6 +35442,69 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Testing Part Number" ""
+			(at 267.97 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 267.97 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 267.97 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 267.97 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 267.97 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 267.97 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
+			(at 267.97 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8fea0a4-31e2-414d-8fd3-b232879d9258")
 		)
@@ -31459,71 +35515,6 @@
 			(project "MoGliFC"
 				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
 					(reference "C_OSD3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom_Library:5V_USB")
-		(at 365.76 351.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d832e6c6-129c-413b-817b-8a4d76a5ce11")
-		(property "Reference" "#PWR070"
-			(at 365.76 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V_USB"
-			(at 365.506 347.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 365.76 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 365.76 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"5V_USB\""
-			(at 365.76 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03d3277c-7d22-49e4-b867-af022f929727")
-		)
-		(instances
-			(project "MoGliFC"
-				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -31583,16 +35574,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 246.38 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 246.38 186.69 0)
 			(effects
 				(font
@@ -31620,6 +35602,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 246.38 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 246.38 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 246.38 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 246.38 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 246.38 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 246.38 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1525"
+			(at 246.38 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 246.38 186.69 0)
 			(effects
 				(font
@@ -31698,16 +35743,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
-			(at 345.44 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 345.44 186.69 0)
 			(effects
 				(font
@@ -31735,6 +35771,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 345.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 345.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 345.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 345.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 345.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 345.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "-"
+			(at 345.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 345.44 186.69 0)
 			(effects
 				(font
@@ -31852,7 +35951,61 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
+		(property "Mouser Testing Part Number" ""
+			(at 30.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 30.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 30.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 30.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 30.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "-"
+			(at 30.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 30.48 82.55 0)
 			(effects
 				(font
@@ -32063,16 +36216,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C25087"
-			(at 316.23 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 316.23 271.78 0)
 			(effects
 				(font
@@ -32100,6 +36244,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 316.23 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 316.23 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 316.23 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 316.23 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 316.23 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 316.23 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C25087"
+			(at 316.23 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 316.23 271.78 0)
 			(effects
 				(font
@@ -32242,15 +36449,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 207.01 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "AVAILABILITY" ""
 			(at 207.01 369.57 0)
 			(effects
@@ -32287,6 +36485,60 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Testing Part Number" ""
+			(at 207.01 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 207.01 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 207.01 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 207.01 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 207.01 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
+			(at 207.01 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b6a69ab-247b-4479-bbdf-cc3fd5340f73")
 		)
@@ -32310,10 +36562,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ee2158cd-b1b1-49b5-8959-98c15a22d04b")
-		(property "Reference" "U1"
-			(at 94.9041 196.85 0)
+		(property "Reference" "U_STM32"
+			(at 70.358 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32322,7 +36573,7 @@
 			)
 		)
 		(property "Value" "STM32H743VIHx"
-			(at 94.9041 199.39 0)
+			(at 71.628 196.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32350,6 +36601,60 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 1024KB RAM, 480 MHz, 1.71-3.6V, 82 GPIO, TFBGA100"
+			(at 90.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 90.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 90.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 90.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 90.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 90.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 90.17 128.27 0)
 			(effects
 				(font
@@ -32661,7 +36966,7 @@
 		(instances
 			(project ""
 				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
-					(reference "U1")
+					(reference "U_STM32")
 					(unit 1)
 				)
 			)
@@ -32787,16 +37092,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "empty"
-			(at 486.41 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 486.41 284.48 0)
 			(effects
 				(font
@@ -32823,7 +37119,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 486.41 284.48 0)
 			(effects
 				(font
@@ -32833,6 +37129,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 486.41 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 486.41 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 486.41 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 486.41 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 486.41 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 486.41 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 486.41 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 486.41 284.48 0)
 			(effects
 				(font
@@ -32907,16 +37266,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1532"
-			(at 203.2 369.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 203.2 369.57 0)
 			(effects
 				(font
@@ -32952,6 +37302,69 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Testing Part Number" ""
+			(at 203.2 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 203.2 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 203.2 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 203.2 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 203.2 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C1532"
+			(at 203.2 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
+			(at 203.2 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0899e34-7e77-44b9-96cc-73530502e38c")
 		)
@@ -32962,71 +37375,6 @@
 			(project "MoGliFC"
 				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 311.15 358.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5717b90-6adb-46da-a018-06e9ae810068")
-		(property "Reference" "#FLG03"
-			(at 311.15 356.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 312.166 353.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 311.15 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 311.15 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87587a80-08d4-4ff4-95a4-370a70f6ccfd")
-		)
-		(instances
-			(project "MoGliFC"
-				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -33152,16 +37500,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "x"
-			(at 487.68 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
+		(property "AVAILABILITY" ""
 			(at 487.68 254 0)
 			(effects
 				(font
@@ -33188,7 +37527,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 487.68 254 0)
 			(effects
 				(font
@@ -33198,6 +37537,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 487.68 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 487.68 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 487.68 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 487.68 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 487.68 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 487.68 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 487.68 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 487.68 254 0)
 			(effects
 				(font
@@ -33270,16 +37672,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
-			(at 337.82 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 337.82 191.77 0)
 			(effects
 				(font
@@ -33307,6 +37700,60 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 337.82 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 337.82 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 337.82 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 337.82 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 337.82 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 337.82 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 337.82 191.77 0)
 			(effects
 				(font
@@ -33385,16 +37832,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "x"
-			(at 337.82 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
+		(property "AVAILABILITY" ""
 			(at 337.82 292.1 0)
 			(effects
 				(font
@@ -33421,7 +37859,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 337.82 292.1 0)
 			(effects
 				(font
@@ -33431,6 +37869,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 337.82 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 337.82 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 337.82 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 337.82 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 337.82 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 337.82 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 337.82 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 337.82 292.1 0)
 			(effects
 				(font
@@ -33576,7 +38077,61 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
+		(property "Mouser Testing Part Number" ""
+			(at 214.63 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 214.63 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 214.63 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 214.63 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 214.63 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "-"
+			(at 214.63 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 214.63 293.37 0)
 			(effects
 				(font
@@ -33842,16 +38397,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "-"
-			(at 400.05 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 400.05 167.64 0)
 			(effects
 				(font
@@ -33878,7 +38424,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 400.05 167.64 0)
 			(effects
 				(font
@@ -33888,6 +38434,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 400.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 400.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 400.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 400.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 400.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 400.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "-"
+			(at 400.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 400.05 167.64 0)
 			(effects
 				(font
@@ -33963,16 +38572,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "x"
-			(at 337.82 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
+		(property "AVAILABILITY" ""
 			(at 337.82 265.43 0)
 			(effects
 				(font
@@ -33999,7 +38599,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 337.82 265.43 0)
 			(effects
 				(font
@@ -34009,6 +38609,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 337.82 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 337.82 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 337.82 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 337.82 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 337.82 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 337.82 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 337.82 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 337.82 265.43 0)
 			(effects
 				(font
@@ -34089,25 +38752,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C14663"
-			(at 182.88 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
-			(at 182.88 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "xx"
+		(property "AVAILABILITY" ""
 			(at 182.88 308.61 0)
 			(effects
 				(font
@@ -34135,6 +38780,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 182.88 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 182.88 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 182.88 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 182.88 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 182.88 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 182.88 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "C14663"
+			(at 182.88 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 182.88 308.61 0)
 			(effects
 				(font
@@ -34213,16 +38921,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "x"
-			(at 337.82 256.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "empty"
+		(property "AVAILABILITY" ""
 			(at 337.82 256.54 0)
 			(effects
 				(font
@@ -34249,7 +38948,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 337.82 256.54 0)
 			(effects
 				(font
@@ -34259,6 +38958,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 337.82 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 337.82 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 337.82 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 337.82 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 337.82 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 337.82 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 337.82 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 337.82 256.54 0)
 			(effects
 				(font
@@ -34340,16 +39102,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "empty"
-			(at 217.17 397.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "x"
+		(property "AVAILABILITY" ""
 			(at 217.17 397.51 0)
 			(effects
 				(font
@@ -34376,7 +39129,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB BOM" "0"
+		(property "JLCPCB BOM" ""
 			(at 217.17 397.51 0)
 			(effects
 				(font
@@ -34386,6 +39139,69 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
+			(at 217.17 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 217.17 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 217.17 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Footprint checked" "-"
+			(at 217.17 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "# Value checked" "-"
+			(at 217.17 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Check" "-"
+			(at 217.17 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "#LCSC Part" "empty"
+			(at 217.17 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "-"
 			(at 217.17 397.51 0)
 			(effects
 				(font
@@ -34481,7 +39297,7 @@
 			(type solid)
 		)
 		(fill
-			(color 255 83 91 1.0000)
+			(color 0 194 194 1.0000)
 		)
 		(uuid "92026c51-6edb-4a7a-8669-09bc2b3bb2a9")
 		(property "Sheetname" "Power"

@@ -523,6 +523,24 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#LCSC Part",
+          "name": "#LCSC Part",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#LCSC Check",
+          "name": "#LCSC Check",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -556,13 +574,13 @@
           "group_by": false,
           "label": "Availability",
           "name": "Availability",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Check_prices",
           "name": "Check_prices",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -584,20 +602,20 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB",
-          "name": "JLCPCB",
-          "show": false
+          "label": "# Value checked",
+          "name": "# Value checked",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "# Footprint checked",
+          "name": "# Footprint checked",
+          "show": true
         },
         {
           "group_by": false,
           "label": "JLCPCB BOM",
           "name": "JLCPCB BOM",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part #",
-          "name": "LCSC Part #",
           "show": true
         },
         {
@@ -692,12 +710,6 @@
         },
         {
           "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Purchase-URL",
           "name": "Purchase-URL",
           "show": false
@@ -731,7 +743,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "#LCSC Check"
     },
     "connection_grid_size": 50.0,
     "drawing": {

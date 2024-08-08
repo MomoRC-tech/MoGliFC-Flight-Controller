@@ -1,0 +1,2 @@
+pip install easyeda2kicad
+easyeda2kicad --symbol --footprint --3d --lcsc_id=C319148

@@ -1,0 +1,160 @@
+(footprint "Schottky BA340 SMA_L4.4-W2.6-LS5.0-RD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "1eea304f-2cc5-4b84-9706-50db55f6ef05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Schottky BA340 SMA_L4.4-W2.6-LS5.0-RD"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "f0a232de-157f-4e72-9988-c2aa88d0aa99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b1332df-e31e-461a-a151-9237bbc39876")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d8fb8de-4612-4db7-ac3d-60e418b5e01e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85527f80-8046-4987-a1b2-8b518294131e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.73 -1.4)
+		(end 2.73 -1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7c989eb-bb77-4d1d-aa03-4ad8d13edb54")
+	)
+	(fp_line
+		(start -2.73 1.4)
+		(end 2.73 1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec20c437-8536-4377-8aa9-26e53a2a32b5")
+	)
+	(fp_line
+		(start -1.2 -1.4)
+		(end -1.2 1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d156dd18-0ee3-4e7c-a4bf-ddb51a30b426")
+	)
+	(fp_line
+		(start 2.73 -1.4)
+		(end 2.73 -1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9c2c0d8-9832-405f-bd20-0272323036f3")
+	)
+	(fp_line
+		(start 2.73 1.4)
+		(end 2.73 1)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "578ec1e4-52d8-490c-a67b-29231bdd3c57")
+	)
+	(fp_circle
+		(center -2.55 1.25)
+		(end -2.52 1.25)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8c40c92a-c908-4e17-b521-e3fac271a57c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9d910906-45aa-44b9-8878-7902a30796d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.19 0)
+		(size 1.8 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7f54db8d-5ba3-4aed-9698-8a014dfb1998")
+	)
+	(pad "2" smd rect
+		(at 2.19 0)
+		(size 1.8 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "23994bc8-56cf-41d0-91c5-88bef155f0c7")
+	)
+	(model "D:/2_Momo/30_RC_Planes/40_DIY ELRS and FC/13_MoGliFC_git/MoGliFC/development/10_KiCAD FC/KiCad component downloads/schottky diodes B340A-13-F/SMA_L4.4-W2.6-LS5.0-RD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
