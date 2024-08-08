@@ -28,9 +28,12 @@ The second extension option is a larger frame which allows the MoGliFC to be pla
 with the USB interface as well es the CAN/CAN-FD externally available turning the MogliFC into a general
 purpose CAN-FD interface. This second extension also holds a SWD (single wire debug) interface for easy debugging.
 
-![PCB mechanical concept](documentation/images/PCB_concept.svg "PCB mechanical concept")
 
-[edit online with draw.io](https://app.diagrams.net/#HMomoRC-tech%2FMoGliFC%2Fmain%2Fdocumentation%2Fimages%2FPCB_concept.svg)
+![PCB mechanical concept](documentation/images/doc_MoGliFC_PCB_concept.svg "PCB Mechanical Concept")
+
+[edit online with draw.io](https://app.diagrams.net/#HMomoRC-tech%2FMoGliFC%2Fmain%2Fdocumentation%2Fimages%2Fdoc_MoGliFC_PCB_concept.svg)
+
+
 
 # Features
 ## Main
@@ -41,7 +44,7 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 * OSD: AT7456E
 * BLACKBOX: 128MB
 
-* expressLRS receiver
+* expressLRS 3.x true diversity receiver (Gemini compatible)
 
 ## I/O
 * 7x UARTs
@@ -57,68 +60,15 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 * BEC Vx 8A cont., 10A peak (servos, 5V with 6/7.4V option) (Wing/Debug only)  
 * LDO 3.3V 500mA (external)   
 
-### Option A) MCU shortcut protected
-```mermaid
-%% WILL NOT RENDER IN MOBILE APP
-flowchart LR
-    A[BAT: 8..25V] -.-> B(BEC 10V-2A cont)
 
-    B ---->|ext| C>VTX]
-    A ---> H(BEC 5/6/7.2V-8A)
-    A ---> D(BEC 5V-2A)
+![Power concept](documentation/images/doc_MoGliFC_power_concept.svg "Power Concept")
 
-    H ----> |ext| I>servos]
-    D ----> |ext| E>peripherals]
-    D --> F(LDO 3V3-500mA MCU)  
-    F --> J[MCU]
-    D --> G(LDO 3V3-500mA SENS)
-    G --> K(sensors)
-    G ---> |ext| L>GPS,...]
+[edit online with draw.io](https://app.diagrams.net/#HMomoRC-tech%2FMoGliFC%2Fmain%2Fdocumentation%2Fimages%2Fdoc_MoGliFC_power_concept.svg)
 
 
-    subgraph MogGliFC
-        B(BEC 10V-2A cont)
-        H(BEC 5/6/7.2V-8A)
-        D(BEC 5V-2A)
-        F(LDO 3V3-500mA MCU)
-        G(LDO 3V3-500mA SENS)
-        J[MCU]
-        K(sensors)
-    end
 
-```
-### Option B) component reduction
-```mermaid
-%% WILL NOT RENDER IN MOBILE APP
-flowchart LR
-    A[BAT: 8..25V] -.-> B(BEC 10V-2A cont)
-
-    B ---->|ext| C>VTX]
-    A ---> H(BEC 5/6/7.2V-8A)
-    A ---> D(BEC 5V-2A)
-
-    H ----> |ext| I>servos]
-    D ----> |ext| E>peripherals]
-    D --> F(LDO 3V3-1A MCU)  
-    F --> J[MCU]
-    F --> K(sensors)
-    F ---> |ext| L>GPS,...]
-
-
-    subgraph MogGliFC
-        B(BEC 10V-2A cont)
-        H(BEC 5/6/7.2V-8A)
-        D(BEC 5V-2A)
-        F(LDO 3V3-1A MCU)
-
-        J[MCU]
-        K(sensors)
-    end
-
-```
 <!-- + mermaid live editor: https://mermaid.live/ + -->
 <!-- + https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/ + -->
-
 
 ## Other
 * 3x status LEDs
