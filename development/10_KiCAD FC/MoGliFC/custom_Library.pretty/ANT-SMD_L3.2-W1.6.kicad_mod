@@ -1,0 +1,206 @@
+(footprint "ANT-SMD_L3.2-W1.6"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "cb5ea149-b362-4be3-b452-a26ab56e930c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ANT-SMD_L3.2-W1.6"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "1f844004-c891-4028-bd48-18eb0f4af91f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "923c8222-49e5-470d-9156-f2c6b4275c9c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12437d61-c64d-4861-a3c9-b50be263d7fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6a78b73-6e24-40bd-abb5-bb427af4c9aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.68 -1.06)
+		(end 1.68 -1.05)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9189350-5469-4586-8164-4020dffc177a")
+	)
+	(fp_line
+		(start -0.76 -0.25)
+		(end -0.76 0.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58dc34c0-6b19-46d5-84e4-f6c866f2bfbd")
+	)
+	(fp_line
+		(start -0.76 0.25)
+		(end -0.25 0.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4dc3a65f-2317-4227-8ec4-ad2427e67780")
+	)
+	(fp_line
+		(start -0.25 -0.25)
+		(end -0.76 -0.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf9b3b39-3ee3-4d33-9b64-71674d3d552d")
+	)
+	(fp_line
+		(start -0.25 0.25)
+		(end -0.25 -0.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8d3421a-088d-4298-a976-33bec874c3f7")
+	)
+	(fp_line
+		(start 1.52 1.05)
+		(end -1.68 1.05)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "28feadd5-6bc6-4583-9955-ee866166205e")
+	)
+	(fp_rect
+		(start -1.75 -0.8)
+		(end 1.75 0.8)
+		(stroke
+			(width 0.03)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "1c534cc3-aedb-4bac-a183-a0eb45b9ddce")
+	)
+	(fp_rect
+		(start -1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.03)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "208aae21-1c35-478e-bb81-eff5154894f2")
+	)
+	(fp_circle
+		(center -1.6 0.8)
+		(end -1.57 0.8)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ae8130b6-2fe9-4acc-b472-a7cb88e7899c")
+	)
+	(fp_text user "."
+		(at -2.53 -1.24 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "30cdd895-5e91-45b0-a381-bc3d2cbff87e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "23da095b-3e54-4320-a918-51f6bbab986e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.58 0)
+		(size 1 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "106bb82d-ae80-4560-ac43-a1472b786bf7")
+	)
+	(pad "2" smd rect
+		(at 1.58 0)
+		(size 1 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6e5361d4-1ca8-4795-aaed-ed33983b7f40")
+	)
+	(model "D:/2_Momo/30_RC_Planes/40_DIY ELRS and FC/13_MoGliFC_git/MoGliFC/development/10_KiCAD FC/KiCad component downloads/wifi chip antenna 2.4/easyeda2kicad.3dshapes/ANT-SMD_L3.2-W1.6-H1.3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

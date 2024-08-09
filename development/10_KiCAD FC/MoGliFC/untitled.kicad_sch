@@ -404,38 +404,37 @@
 				)
 			)
 		)
-		(symbol "LP5912-3.3DRVR_1"
+		(symbol "custom_Library:3V3_ELRS1"
+			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 10.795 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(hide yes)
 				)
 			)
-			(property "Value" "LP5912-3.3DRVR"
-				(at -12.7 -12.7 0)
+			(property "Value" "3V3_ELRS1"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "custom_Library:LP59123.3_SON65P200X200X80-7N"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -448,7 +447,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Power symbol creates a global label with name \"3V3_ELRS1\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -457,270 +456,188 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Texas Instruments"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "3V3_ELRS1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "WSON-6 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LP5912-3.3DRVR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LP5912-3.3DRVR/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "LP5912-3.3DRVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=510369&manufacturer=Texas Instruments&part_name=LP5912-3.3DRVR&search_term=lp59123.3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n500-mA&nbsp;low-noise&nbsp;low-IQ&nbsp;low-dropout voltage regulator with reverse current protect\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "LP5912-3.3DRVR_1_0_0"
-				(rectangle
-					(start -12.7 -10.16)
-					(end 12.7 10.16)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin power_out line
-					(at 17.78 7.62 180)
-					(length 5.08)
-					(name "OUT"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3V3_ELRS1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin no_connect line
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+			)
+		)
+		(symbol "custom_Library:3V3_ELRS2"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+					(hide yes)
+				)
+			)
+			(property "Value" "3V3_ELRS2"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(pin output line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "PG"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"3V3_ELRS2\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3V3_ELRS2_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3V3_ELRS2_1_1"
 				(pin power_in line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(name "GND"
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "EXP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -11710,7 +11627,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LP5912-3.3DRVR_1")
 		(lib_id "custom_Library:LP5912-3.3DRVR")
 		(at 363.22 133.35 0)
 		(unit 1)
@@ -11793,7 +11709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "-"
+		(property "Price" "None"
 			(at 363.22 133.35 0)
 			(effects
 				(font
@@ -11873,7 +11789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Availability" "In Stock"
 			(at 363.22 133.35 0)
 			(effects
 				(font
@@ -12044,72 +11960,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_Library:3V3_SENS")
-		(at 397.51 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b274abd-2976-4289-b817-90a314422b53")
-		(property "Reference" "#PWR057"
-			(at 397.51 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3_ELRS2"
-			(at 393.7 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 397.51 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 397.51 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3V3_SENS"
-			(at 397.51 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dee5e2df-f672-42dc-974b-64ec4d03002c")
-		)
-		(instances
-			(project "MoGliFC"
-				(path "/93ed104c-0023-445d-9c91-226bb47cb218/92026c51-6edb-4a7a-8669-09bc2b3bb2a9"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 388.62 46.99 0)
 		(unit 1)
@@ -12169,6 +12019,72 @@
 			(project "MoGliFC"
 				(path "/93ed104c-0023-445d-9c91-226bb47cb218/92026c51-6edb-4a7a-8669-09bc2b3bb2a9"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_Library:3V3_ELRS1")
+		(at 396.24 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "147251d0-94cc-4f76-a623-09040def69e9")
+		(property "Reference" "#PWR046"
+			(at 396.24 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3_ELRS1"
+			(at 396.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V3_ELRS1\""
+			(at 396.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed78e81f-95bd-43fb-a4fd-55cda040f7d7")
+		)
+		(instances
+			(project ""
+				(path "/93ed104c-0023-445d-9c91-226bb47cb218/92026c51-6edb-4a7a-8669-09bc2b3bb2a9"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -13419,6 +13335,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C85098"
+			(at 77.47 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e2ab215-031c-440b-a0fc-3969690494ab")
 		)
@@ -13713,7 +13638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "-"
+		(property "Price" "None"
 			(at 364.49 172.72 0)
 			(effects
 				(font
@@ -13793,7 +13718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Availability" "In Stock"
 			(at 364.49 172.72 0)
 			(effects
 				(font
@@ -15103,7 +15028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "-"
+		(property "Price" "None"
 			(at 364.49 76.2 0)
 			(effects
 				(font
@@ -15183,7 +15108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Availability" "In Stock"
 			(at 364.49 76.2 0)
 			(effects
 				(font
@@ -15965,72 +15890,6 @@
 			(project "MoGliFC"
 				(path "/93ed104c-0023-445d-9c91-226bb47cb218/92026c51-6edb-4a7a-8669-09bc2b3bb2a9"
 					(reference "C_BECVTX6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom_Library:3V3_MCU")
-		(at 396.24 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7281ad9-dd36-4cb3-8c49-eecc43676c9c")
-		(property "Reference" "#PWR046"
-			(at 396.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3_ELRS1"
-			(at 392.43 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 396.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 396.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3V3_MCU\""
-			(at 396.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a2fa5f3-c52a-46e6-873b-068cbdce6406")
-		)
-		(instances
-			(project "MoGliFC"
-				(path "/93ed104c-0023-445d-9c91-226bb47cb218/92026c51-6edb-4a7a-8669-09bc2b3bb2a9"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -17157,7 +17016,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LP5912-3.3DRVR_1")
 		(lib_id "custom_Library:LP5912-3.3DRVR")
 		(at 363.22 36.83 0)
 		(unit 1)
@@ -17240,7 +17098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "-"
+		(property "Price" "None"
 			(at 363.22 36.83 0)
 			(effects
 				(font
@@ -17320,7 +17178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Availability" "In Stock"
 			(at 363.22 36.83 0)
 			(effects
 				(font
@@ -17539,6 +17397,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C85098"
+			(at 77.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1e135c1-cb41-423a-a21c-d343d614a140")
 		)
@@ -17614,6 +17481,72 @@
 			(project "MoGliFC"
 				(path "/93ed104c-0023-445d-9c91-226bb47cb218/92026c51-6edb-4a7a-8669-09bc2b3bb2a9"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_Library:3V3_ELRS2")
+		(at 397.51 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3d07230-bd06-4a61-beae-f8b1ff71f095")
+		(property "Reference" "#PWR057"
+			(at 397.51 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3_ELRS2"
+			(at 397.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 397.51 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 397.51 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V3_ELRS2\""
+			(at 397.51 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee2f7b25-5d69-482a-823e-df655c270af5")
+		)
+		(instances
+			(project ""
+				(path "/93ed104c-0023-445d-9c91-226bb47cb218/92026c51-6edb-4a7a-8669-09bc2b3bb2a9"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)

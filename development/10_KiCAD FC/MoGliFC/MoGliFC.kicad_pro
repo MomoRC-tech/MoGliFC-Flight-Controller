@@ -800,6 +800,10 @@
     [
       "92026c51-6edb-4a7a-8669-09bc2b3bb2a9",
       "Power"
+    ],
+    [
+      "2b6914af-f185-4dc3-8d3c-df40592868f0",
+      "expressLRS"
     ]
   ],
   "text_variables": {}

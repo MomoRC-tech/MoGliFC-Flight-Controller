@@ -8,116 +8,6 @@
 		(title "MoGliFC")
 	)
 	(lib_symbols
-		(symbol "Conn_01x01_1"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_1"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1_1"
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:TestPoint_Flag"
 			(pin_numbers hide)
 			(pin_names
@@ -9042,7 +8932,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 233.68) (xy 121.92 233.68)
+			(xy 137.16 234.95) (xy 146.05 234.95)
 		)
 		(stroke
 			(width 0)
@@ -10282,7 +10172,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 233.68) (xy 107.95 233.68)
+			(xy 129.54 234.95) (xy 132.08 234.95)
 		)
 		(stroke
 			(width 0)
@@ -12302,7 +12192,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 227.33) (xy 107.95 227.33)
+			(xy 120.65 228.6) (xy 132.08 228.6)
 		)
 		(stroke
 			(width 0)
@@ -12692,7 +12582,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 227.33) (xy 121.92 227.33)
+			(xy 137.16 228.6) (xy 146.05 228.6)
 		)
 		(stroke
 			(width 0)
@@ -12859,6 +12749,18 @@
 			(type default)
 		)
 		(uuid "fe4528e4-ba49-4afb-8870-9c84f6b5dcae")
+	)
+	(rectangle
+		(start 487.68 86.36)
+		(end 581.66 148.59)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ffd9a78a-6217-4c1c-894b-2f7eae7c09b0)
 	)
 	(image
 		(at 25.4 330.2)
@@ -14786,7 +14688,7 @@
 	)
 	(text "- LED 0 & 1: FC status\n- LED 2: 3V3 status"
 		(exclude_from_sim no)
-		(at 49.784 215.392 0)
+		(at 48.768 215.138 0)
 		(effects
 			(font
 				(size 1 1)
@@ -15349,7 +15251,7 @@
 		(uuid "95b13035-567d-40ee-a6e1-430935f509c3")
 	)
 	(label "beep"
-		(at 113.03 227.33 0)
+		(at 137.16 228.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15360,7 +15262,7 @@
 		(uuid "9d019a3e-8a5c-48b0-a775-5886db38f9b2")
 	)
 	(label "LED"
-		(at 115.57 233.68 0)
+		(at 139.7 234.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15646,7 +15548,7 @@
 	)
 	(global_label "BEEPER"
 		(shape input)
-		(at 96.52 227.33 180)
+		(at 120.65 228.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15656,7 +15558,7 @@
 		)
 		(uuid "0c257c78-f0af-458d-a0f4-a3b12dd43a04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.9387 227.4094 0)
+			(at 111.0687 228.6794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16896,7 +16798,7 @@
 	)
 	(global_label "WS2811_LED_PIN"
 		(shape input)
-		(at 105.41 233.68 180)
+		(at 129.54 234.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16906,7 +16808,7 @@
 		)
 		(uuid "833044cf-5aa7-4f4d-981b-398595463b86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.9991 233.7594 0)
+			(at 111.1291 235.0294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18991,7 +18893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 316.23 289.56 0)
 			(effects
 				(font
@@ -19160,7 +19062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 337.82 283.21 0)
 			(effects
 				(font
@@ -19613,7 +19515,7 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" ""
+		(property "AVAILABILITY" "Unavailable"
 			(at 128.27 262.89 0)
 			(effects
 				(font
@@ -20612,7 +20514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 487.68 250.19 0)
 			(effects
 				(font
@@ -21291,7 +21193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 337.82 318.77 0)
 			(effects
 				(font
@@ -21639,7 +21541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 207.01 360.68 0)
 			(effects
 				(font
@@ -22367,7 +22269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 486.41 294.64 0)
 			(effects
 				(font
@@ -22958,7 +22860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 316.23 254 0)
 			(effects
 				(font
@@ -23575,7 +23477,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_01x01_1")
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 486.41 280.67 0)
 		(unit 1)
@@ -23620,7 +23521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 486.41 280.67 0)
 			(effects
 				(font
@@ -23793,7 +23694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 337.82 394.97 0)
 			(effects
 				(font
@@ -24964,6 +24865,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C319148"
+			(at 340.36 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1B12"
 			(uuid "61217334-51bc-4f8a-875e-8feb229147b1")
 		)
@@ -25516,7 +25426,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 110.49 233.68 270)
+		(at 134.62 234.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25524,7 +25434,7 @@
 		(dnp no)
 		(uuid "5f956b3d-4296-47f1-a870-da0f68b22ea0")
 		(property "Reference" "R_ws2811"
-			(at 110.49 231.775 90)
+			(at 134.62 233.045 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25532,7 +25442,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 110.49 235.585 90)
+			(at 134.62 236.855 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25540,7 +25450,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25549,7 +25459,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25558,7 +25468,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25567,7 +25477,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25576,7 +25486,7 @@
 			)
 		)
 		(property "Arrow Part Number" "xx"
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25585,7 +25495,7 @@
 			)
 		)
 		(property "Supplier and ref" ""
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25594,7 +25504,7 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25603,7 +25513,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25612,7 +25522,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25621,7 +25531,7 @@
 			)
 		)
 		(property "# Footprint checked" "-"
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25630,7 +25540,7 @@
 			)
 		)
 		(property "# Value checked" "-"
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25639,7 +25549,7 @@
 			)
 		)
 		(property "#LCSC Check" "-"
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25648,7 +25558,7 @@
 			)
 		)
 		(property "#LCSC Part" "C8218"
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25657,7 +25567,7 @@
 			)
 		)
 		(property "Price" "-"
-			(at 110.49 233.68 0)
+			(at 134.62 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25947,7 +25857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 321.31 398.78 0)
 			(effects
 				(font
@@ -26013,7 +25923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 332.74 250.19 0)
 			(effects
 				(font
@@ -26246,7 +26156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 486.41 274.32 0)
 			(effects
 				(font
@@ -26720,7 +26630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 337.82 274.32 0)
 			(effects
 				(font
@@ -26898,7 +26808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 337.82 355.6 0)
 			(effects
 				(font
@@ -27067,7 +26977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 337.82 300.99 0)
 			(effects
 				(font
@@ -27886,7 +27796,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 121.92 227.33 0)
+		(at 146.05 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27894,7 +27804,7 @@
 		(dnp no)
 		(uuid "732dc165-4582-4b09-abfd-aae567d5afeb")
 		(property "Reference" "TP2"
-			(at 128.27 225.425 0)
+			(at 152.4 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27903,7 +27813,7 @@
 			)
 		)
 		(property "Value" "BEP"
-			(at 123.19 227.965 0)
+			(at 147.32 229.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27912,7 +27822,7 @@
 			)
 		)
 		(property "Footprint" "Momo footprints Library:PinHeader_1x01_P2.54mm_Vertical"
-			(at 127 227.33 0)
+			(at 151.13 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27921,7 +27831,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 227.33 0)
+			(at 151.13 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27930,7 +27840,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 121.92 227.33 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27939,7 +27849,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 121.92 227.33 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27948,7 +27858,7 @@
 			)
 		)
 		(property "Arrow Part Number" "-"
-			(at 121.92 227.33 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27957,7 +27867,7 @@
 			)
 		)
 		(property "Supplier and ref" ""
-			(at 121.92 227.33 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27966,7 +27876,7 @@
 			)
 		)
 		(property "JLCPCB BOM" ""
-			(at 121.92 227.33 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27975,7 +27885,7 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
-			(at 121.92 227.33 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27984,7 +27894,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 121.92 227.33 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27993,7 +27903,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 121.92 227.33 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28002,7 +27912,7 @@
 			)
 		)
 		(property "# Footprint checked" "-"
-			(at 121.92 227.33 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28011,7 +27921,7 @@
 			)
 		)
 		(property "# Value checked" "-"
-			(at 121.92 227.33 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28020,7 +27930,7 @@
 			)
 		)
 		(property "#LCSC Check" "-"
-			(at 121.92 227.33 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28029,7 +27939,7 @@
 			)
 		)
 		(property "#LCSC Part" "-"
-			(at 121.92 227.33 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28038,7 +27948,7 @@
 			)
 		)
 		(property "Price" "-"
-			(at 121.92 227.33 0)
+			(at 146.05 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28151,7 +28061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "-"
+		(property "Price" "None"
 			(at 82.55 374.65 0)
 			(effects
 				(font
@@ -28221,7 +28131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Availability" "In Stock"
 			(at 82.55 374.65 0)
 			(effects
 				(font
@@ -28391,7 +28301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 316.23 262.89 0)
 			(effects
 				(font
@@ -28558,7 +28468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 331.47 325.12 0)
 			(effects
 				(font
@@ -28859,7 +28769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 217.17 387.35 0)
 			(effects
 				(font
@@ -29033,7 +28943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 363.22 398.78 0)
 			(effects
 				(font
@@ -29099,7 +29009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 316.23 280.67 0)
 			(effects
 				(font
@@ -29593,7 +29503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 337.82 309.88 0)
 			(effects
 				(font
@@ -29838,7 +29748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 207.01 374.65 0)
 			(effects
 				(font
@@ -29904,7 +29814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 486.41 290.83 0)
 			(effects
 				(font
@@ -30312,7 +30222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 316.23 307.34 0)
 			(effects
 				(font
@@ -31848,7 +31758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 316.23 316.23 0)
 			(effects
 				(font
@@ -32314,7 +32224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 377.19 360.68 0)
 			(effects
 				(font
@@ -33079,7 +32989,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 110.49 227.33 270)
+		(at 134.62 228.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33087,7 +32997,7 @@
 		(dnp no)
 		(uuid "bddb6fed-1271-4e0f-bebd-eab0add93331")
 		(property "Reference" "R_beep1"
-			(at 110.49 225.425 90)
+			(at 134.62 226.695 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33095,7 +33005,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 110.49 229.235 90)
+			(at 134.62 230.505 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33103,7 +33013,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33112,7 +33022,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33121,7 +33031,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33130,7 +33040,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33139,7 +33049,7 @@
 			)
 		)
 		(property "Arrow Part Number" "xx"
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33148,7 +33058,7 @@
 			)
 		)
 		(property "Supplier and ref" ""
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33157,7 +33067,7 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33166,7 +33076,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33175,7 +33085,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33184,7 +33094,7 @@
 			)
 		)
 		(property "# Footprint checked" "-"
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33193,7 +33103,7 @@
 			)
 		)
 		(property "# Value checked" "-"
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33202,7 +33112,7 @@
 			)
 		)
 		(property "#LCSC Check" "-"
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33211,7 +33121,7 @@
 			)
 		)
 		(property "#LCSC Part" "C8218"
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33220,7 +33130,7 @@
 			)
 		)
 		(property "Price" "-"
-			(at 110.49 227.33 0)
+			(at 134.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33310,7 +33220,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 121.92 233.68 0)
+		(at 146.05 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33318,7 +33228,7 @@
 		(dnp no)
 		(uuid "c000e6c3-2641-47b5-81a3-8170f5982c88")
 		(property "Reference" "TP1"
-			(at 128.27 231.775 0)
+			(at 152.4 233.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33327,7 +33237,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 123.19 234.315 0)
+			(at 147.32 235.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33336,7 +33246,7 @@
 			)
 		)
 		(property "Footprint" "Momo footprints Library:FlightController_Pad_1.5mm_small"
-			(at 127 233.68 0)
+			(at 151.13 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33345,7 +33255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 233.68 0)
+			(at 151.13 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33354,7 +33264,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 121.92 233.68 0)
+			(at 146.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33363,7 +33273,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 121.92 233.68 0)
+			(at 146.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33372,7 +33282,7 @@
 			)
 		)
 		(property "Supplier and ref" ""
-			(at 121.92 233.68 0)
+			(at 146.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33381,7 +33291,7 @@
 			)
 		)
 		(property "JLCPCB BOM" ""
-			(at 121.92 233.68 0)
+			(at 146.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33390,7 +33300,7 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
-			(at 121.92 233.68 0)
+			(at 146.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33399,7 +33309,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 121.92 233.68 0)
+			(at 146.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33408,7 +33318,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 121.92 233.68 0)
+			(at 146.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33417,7 +33327,7 @@
 			)
 		)
 		(property "# Footprint checked" "-"
-			(at 121.92 233.68 0)
+			(at 146.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33426,7 +33336,7 @@
 			)
 		)
 		(property "# Value checked" "-"
-			(at 121.92 233.68 0)
+			(at 146.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33435,7 +33345,7 @@
 			)
 		)
 		(property "#LCSC Check" "-"
-			(at 121.92 233.68 0)
+			(at 146.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33444,7 +33354,7 @@
 			)
 		)
 		(property "#LCSC Part" "-"
-			(at 121.92 233.68 0)
+			(at 146.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33453,7 +33363,7 @@
 			)
 		)
 		(property "Price" "-"
-			(at 121.92 233.68 0)
+			(at 146.05 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33517,7 +33427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 377.19 356.87 0)
 			(effects
 				(font
@@ -33916,7 +33826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 486.41 270.51 0)
 			(effects
 				(font
@@ -34418,7 +34328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 217.17 392.43 0)
 			(effects
 				(font
@@ -34592,7 +34502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 316.23 298.45 0)
 			(effects
 				(font
@@ -34869,7 +34779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Availability" ""
+		(property "Availability" "In Stock"
 			(at 207.01 186.69 0)
 			(effects
 				(font
@@ -34879,7 +34789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "-"
+		(property "Price" "None"
 			(at 207.01 186.69 0)
 			(effects
 				(font
@@ -35199,7 +35109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 337.82 398.78 0)
 			(effects
 				(font
@@ -36207,7 +36117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 316.23 271.78 0)
 			(effects
 				(font
@@ -36440,7 +36350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 207.01 369.57 0)
 			(effects
 				(font
@@ -37083,7 +36993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 486.41 284.48 0)
 			(effects
 				(font
@@ -37257,7 +37167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 203.2 369.57 0)
 			(effects
 				(font
@@ -37491,7 +37401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 487.68 254 0)
 			(effects
 				(font
@@ -37823,7 +37733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 337.82 292.1 0)
 			(effects
 				(font
@@ -38322,7 +38232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 337.82 351.79 0)
 			(effects
 				(font
@@ -38563,7 +38473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 337.82 265.43 0)
 			(effects
 				(font
@@ -38912,7 +38822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 337.82 256.54 0)
 			(effects
 				(font
@@ -39093,7 +39003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 217.17 397.51 0)
 			(effects
 				(font
@@ -39284,6 +39194,44 @@
 				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
 					(reference "#PWR044")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 510.54 97.79)
+		(size 50.8 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 132 132 132 1.0000)
+		)
+		(uuid "2b6914af-f185-4dc3-8d3c-df40592868f0")
+		(property "Sheetname" "expressLRS"
+			(at 510.54 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "expressLRS.kicad_sch"
+			(at 510.54 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MoGliFC"
+				(path "/93ed104c-0023-445d-9c91-226bb47cb218"
+					(page "3")
 				)
 			)
 		)

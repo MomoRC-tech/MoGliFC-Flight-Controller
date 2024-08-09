@@ -1,4 +1,4 @@
-23703655169000573
+23717440760278809
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96586,12 +96586,40 @@ Varistor VF
 2
 2
 custom_Library
+AN91445
+
+
+0
+2
+2
+custom_Library
+ANT-SMD_L3.2-W1.6
+
+
+0
+2
+2
+custom_Library
+AT2401C_QFN-16_L3.0-W3.0-P0.50-BL-EP1.7
+
+
+0
+17
+17
+custom_Library
 BMI088
 
 
 0
 16
 16
+custom_Library
+ESP32-PICO-D4
+
+
+0
+49
+49
 custom_Library
 EVQP7J01P
 EVQP7J
@@ -96606,6 +96634,13 @@ HMC5883L
 0
 16
 16
+custom_Library
+LED-SMD_4P-L2.1-W2.1-TL_TC2020RGB
+
+
+0
+4
+4
 custom_Library
 LP59123.3_SON65P200X200X80-7N
 
@@ -96656,6 +96691,13 @@ Tactile Switch
 2
 2
 custom_Library
+SX1280IMLTRT
+
+
+0
+25
+25
+custom_Library
 Schottky BA340 SMA_L4.4-W2.6-LS5.0-RD
 
 
@@ -96676,6 +96718,13 @@ TPSM33625RDNR
 0
 22
 22
+custom_Library
+U.FL-R-SMT-180
+
+
+0
+3
+3
 custom_Library
 U263241N4BQC111
 U263-241N-4BQC11-1-2
@@ -96704,6 +96753,13 @@ XDCR_DPS310
 0
 8
 8
+custom_Library
+elrs filter 2450FM07A0035T
+
+
+0
+4
+4
 custom_library_solderbridge
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
