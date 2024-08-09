@@ -38,11 +38,11 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 # Features
 ## Main
 * MCU: STM32H743 @480MHz
-* GYRO: BMI270 (Bosch)
-* MAG: HMC5883 (Honeywell)
-* BARO: DPS310 (Infineon) 
-* OSD: AT7456E
-* BLACKBOX: 128MB
+* GYROscope: BMI270 (Bosch)
+* MAGnetometer: HMC5883 (Honeywell)
+* BAROmeter: DPS310 (Infineon) 
+* OnScreenDisplay: AT7456E
+* BLACKBOX Recorder: 128MB
 
 * expressLRS 3.x true diversity receiver (Gemini compatible)
 
