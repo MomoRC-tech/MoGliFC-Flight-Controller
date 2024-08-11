@@ -140,6 +140,163 @@
 				)
 			)
 		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -4718,6 +4875,12 @@
 		(uuid "16962d8e-ca25-4c74-858b-680ec7967ccd")
 	)
 	(junction
+		(at 128.27 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a88b78e-081f-4153-b1e1-94b1a72dfc20")
+	)
+	(junction
 		(at 255.27 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4746,6 +4909,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29f7d891-2f7b-4e3d-9100-9e3d8616fa34")
+	)
+	(junction
+		(at 134.62 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d585836-19ac-4fef-b42f-cbdb68973833")
 	)
 	(junction
 		(at 76.2 260.35)
@@ -4824,6 +4993,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6896ff18-de93-486e-8bf3-9651d18a78a5")
+	)
+	(junction
+		(at 123.19 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dfe7bae-8f9c-4b70-8d4b-580ac3a88080")
 	)
 	(junction
 		(at 255.27 182.88)
@@ -5030,7 +5205,7 @@
 		(uuid "3880ae2f-dd99-4e11-8843-c2a4b4b98e34")
 	)
 	(no_connect
-		(at 165.1 50.8)
+		(at 167.64 43.18)
 		(uuid "38fd65cc-5117-42c0-9022-45e3706fb6c5")
 	)
 	(no_connect
@@ -5138,16 +5313,6 @@
 			(type default)
 		)
 		(uuid "030312bb-b213-42b9-8593-e9567d87e70c")
-	)
-	(wire
-		(pts
-			(xy 142.24 50.8) (xy 115.57 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "050e42a6-7629-41c6-b60b-65a293f4939e")
 	)
 	(wire
 		(pts
@@ -5418,6 +5583,16 @@
 			(type default)
 		)
 		(uuid "21ad44a6-7c50-4fee-b535-8a43c5f4c61a")
+	)
+	(wire
+		(pts
+			(xy 124.46 43.18) (xy 123.19 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2210a7f6-a3a4-4be8-97f5-eac780f09d30")
 	)
 	(wire
 		(pts
@@ -5931,7 +6106,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 50.8) (xy 110.49 50.8)
+			(xy 100.33 50.8) (xy 114.3 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6101,6 +6276,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 43.18) (xy 144.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65854f4c-930c-4fc1-8ba3-c56d02ab06f3")
+	)
+	(wire
+		(pts
 			(xy 255.27 247.65) (xy 255.27 250.19)
 		)
 		(stroke
@@ -6198,6 +6383,16 @@
 			(type default)
 		)
 		(uuid "72a52fe8-210b-4ec8-8964-0e24bbc6148e")
+	)
+	(wire
+		(pts
+			(xy 123.19 48.26) (xy 128.27 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732d8f3d-2dca-4ced-a0d1-a6cb6f8bf017")
 	)
 	(wire
 		(pts
@@ -6361,6 +6556,26 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 43.18) (xy 134.62 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d737f2a-a595-4eda-97c6-d43ca28f7043")
+	)
+	(wire
+		(pts
+			(xy 128.27 48.26) (xy 134.62 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfc8587-9cc8-4731-9f7c-77c67af937c3")
+	)
+	(wire
+		(pts
 			(xy 33.02 242.57) (xy 33.02 250.19)
 		)
 		(stroke
@@ -6428,6 +6643,16 @@
 			(type default)
 		)
 		(uuid "8a2819f5-11a2-4260-904f-55ed356f328a")
+	)
+	(wire
+		(pts
+			(xy 114.3 50.8) (xy 114.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2dc271-d276-449f-8a6a-63a6ed9cab88")
 	)
 	(wire
 		(pts
@@ -6828,6 +7053,16 @@
 			(type default)
 		)
 		(uuid "b7cbca4b-3f96-4a81-920f-1d0a100bf466")
+	)
+	(wire
+		(pts
+			(xy 114.3 43.18) (xy 123.19 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85bfd0b-e0c3-42a6-9de2-3333dc1fde6e")
 	)
 	(wire
 		(pts
@@ -7626,7 +7861,7 @@
 	)
 	(text "WiFi Antenna"
 		(exclude_from_sim no)
-		(at 152.4 43.688 0)
+		(at 155.956 37.592 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9282,6 +9517,179 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 128.27 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ee92b15-593f-44d5-ac78-d1f2ac66a2e9")
+		(property "Reference" "L1"
+			(at 128.27 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n8"
+			(at 128.27 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 128.27 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d66f99f6-ccd9-433e-b093-fceb193a228d")
+		)
+		(pin "2"
+			(uuid "ff5f0990-7bb4-45a9-9bc4-4cb7f0938a1b")
+		)
+		(instances
+			(project ""
+				(path "/93ed104c-0023-445d-9c91-226bb47cb218/2b6914af-f185-4dc3-8d3c-df40592868f0"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 134.62 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "103370e5-0bb6-4a8a-802f-5a002317b398")
+		(property "Reference" "C_pi1"
+			(at 137.16 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1p2"
+			(at 137.16 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "ext"
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a914494e-3071-4e81-b7fb-7bd40afafdb3")
+		)
+		(pin "2"
+			(uuid "490cd5e8-d455-4327-b9fb-40f55a7c2677")
+		)
+		(instances
+			(project "MoGliFC"
+				(path "/93ed104c-0023-445d-9c91-226bb47cb218/2b6914af-f185-4dc3-8d3c-df40592868f0"
+					(reference "C_pi1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 80.01 129.54 0)
 		(unit 1)
@@ -9692,7 +10100,7 @@
 	)
 	(symbol
 		(lib_id "custom_Library:ANT3216LL00R2400A")
-		(at 154.94 50.8 0)
+		(at 157.48 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9700,7 +10108,7 @@
 		(dnp no)
 		(uuid "2d80c239-eac3-48e9-87a1-323b30985e40")
 		(property "Reference" "U3"
-			(at 145.796 46.736 0)
+			(at 148.336 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9708,7 +10116,7 @@
 			)
 		)
 		(property "Value" "ANT3216LL00R2400A"
-			(at 154.432 54.864 0)
+			(at 156.972 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9716,7 +10124,7 @@
 			)
 		)
 		(property "Footprint" "custom_Library:ANT-SMD_L3.2-W1.6"
-			(at 154.94 58.42 0)
+			(at 157.48 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9725,7 +10133,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Others_YAGEO-ANT3216LL00R2400A_C293767.html"
-			(at 154.94 60.96 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9734,7 +10142,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 50.8 0)
+			(at 157.48 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,7 +10151,7 @@
 			)
 		)
 		(property "LCSC Part" "C293767"
-			(at 154.94 63.5 0)
+			(at 157.48 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10592,6 +11000,111 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 123.19 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44ba65cd-401f-48d9-b23a-30693851c723")
+		(property "Reference" "C_pi2"
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1p5"
+			(at 120.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "ext"
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB BOM" ""
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a9a0eaf-7208-4c77-9ac4-b7eefffe7895")
+		)
+		(pin "2"
+			(uuid "10e12793-2af6-4e34-a611-a957f73b3f97")
+		)
+		(instances
+			(project "MoGliFC"
+				(path "/93ed104c-0023-445d-9c91-226bb47cb218/2b6914af-f185-4dc3-8d3c-df40592868f0"
+					(reference "C_pi2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 154.94 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11077,6 +11590,71 @@
 			(project "MoGliFC"
 				(path "/93ed104c-0023-445d-9c91-226bb47cb218/2b6914af-f185-4dc3-8d3c-df40592868f0"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d390547-5b9b-4254-b17d-38d145e41b0f")
+		(property "Reference" "#PWR084"
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3447deb8-9329-4f85-8cc3-95e8c7d38001")
+		)
+		(instances
+			(project "MoGliFC"
+				(path "/93ed104c-0023-445d-9c91-226bb47cb218/2b6914af-f185-4dc3-8d3c-df40592868f0"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -16350,111 +16928,6 @@
 			(project "MoGliFC"
 				(path "/93ed104c-0023-445d-9c91-226bb47cb218/2b6914af-f185-4dc3-8d3c-df40592868f0"
 					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 113.03 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f007e010-5c22-44e1-9437-1b0f0c86e760")
-		(property "Reference" "C8"
-			(at 114.3 46.736 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "6.2p"
-			(at 114.3 49.276 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 113.03 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C41744"
-			(at 113.03 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "ext"
-			(at 113.03 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 113.03 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB BOM" "xx"
-			(at 113.03 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "236c1868-3a02-44da-8c0c-aeda87ae2177")
-		)
-		(pin "2"
-			(uuid "9b96fd4b-d3f3-4bb3-af7f-9b56531f2620")
-		)
-		(instances
-			(project "MoGliFC"
-				(path "/93ed104c-0023-445d-9c91-226bb47cb218/2b6914af-f185-4dc3-8d3c-df40592868f0"
-					(reference "C8")
 					(unit 1)
 				)
 			)
