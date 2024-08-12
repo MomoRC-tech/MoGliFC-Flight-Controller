@@ -80,7 +80,7 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 
 ## Mechanics
 * Mounting: 30.5 x 30.5mm, Φ4mm with grommets Φ3mm
-* Dimension: 54 x 36 x 13 mm
+* Dimension: 54 x 36 x 13 mm (wing); 36 x 36 x 13 mm (quad)
 * Weight: XXg (Quad: XXg, Wing: YYg) 
 
 
