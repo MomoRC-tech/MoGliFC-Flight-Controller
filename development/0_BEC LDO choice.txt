@@ -24,6 +24,7 @@ BEC:
 
 - TPS54560DDAR      58V, 5A   JLC yes !!!! Vx !!!  1€  --> new: TPS54560B
 
+- LM60440DRPKR  !!
 
 [AP6-<4=40V><35=3.5A>]
 - Diodes AP64200    40V, 2A,     jlc yes     --> 5x6mm!, 0.6€

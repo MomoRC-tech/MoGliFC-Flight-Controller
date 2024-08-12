@@ -8115,6 +8115,12 @@
 		(uuid "bb6028f2-bab1-4d1c-a76f-dff01a0a087c")
 	)
 	(junction
+		(at 137.16 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd60fa12-fe47-4310-a9c7-c2cd6687382a")
+	)
+	(junction
 		(at 331.47 285.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8191,6 +8197,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e395f6b3-808a-4b33-9bbb-9a4cac8861c0")
+	)
+	(junction
+		(at 132.08 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4158fba-72c1-441b-9817-49ff9b217354")
 	)
 	(junction
 		(at 92.71 54.61)
@@ -8929,16 +8941,6 @@
 			(type default)
 		)
 		(uuid "21cf57a4-dfd2-4bcd-a6fb-deb9bd496dda")
-	)
-	(wire
-		(pts
-			(xy 137.16 234.95) (xy 146.05 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "232789c2-46e1-43cd-ae56-0628fdcdc5a3")
 	)
 	(wire
 		(pts
@@ -10172,7 +10174,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 234.95) (xy 132.08 234.95)
+			(xy 121.92 234.95) (xy 132.08 234.95)
 		)
 		(stroke
 			(width 0)
@@ -11372,6 +11374,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 234.95) (xy 137.16 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f9938e-0610-42e1-98cc-0821b61c62ba")
+	)
+	(wire
+		(pts
 			(xy 240.03 176.53) (xy 240.03 180.34)
 		)
 		(stroke
@@ -11749,6 +11761,16 @@
 			(type default)
 		)
 		(uuid "c7749219-bf09-4822-99a3-2f222ad11888")
+	)
+	(wire
+		(pts
+			(xy 137.16 234.95) (xy 138.43 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7856685-96e4-4708-9189-7bc1530e85eb")
 	)
 	(wire
 		(pts
@@ -12192,7 +12214,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 228.6) (xy 132.08 228.6)
+			(xy 113.03 228.6) (xy 124.46 228.6)
 		)
 		(stroke
 			(width 0)
@@ -12582,7 +12604,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 228.6) (xy 146.05 228.6)
+			(xy 129.54 228.6) (xy 138.43 228.6)
 		)
 		(stroke
 			(width 0)
@@ -14697,6 +14719,19 @@
 		)
 		(uuid "65f53a98-026f-414e-b3dc-170dcfc3881c")
 	)
+	(text "ToDo: beeper FET"
+		(exclude_from_sim no)
+		(at 123.19 221.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 4 1)
+			)
+		)
+		(uuid "6ad7b35d-206d-481f-8fa7-13f49fdf708c")
+	)
 	(text "USB FC"
 		(exclude_from_sim no)
 		(at 301.752 344.932 0)
@@ -14851,7 +14886,7 @@
 	)
 	(text "Check R's depending on diode"
 		(exclude_from_sim no)
-		(at 56.134 248.158 0)
+		(at 53.848 248.666 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15251,7 +15286,7 @@
 		(uuid "95b13035-567d-40ee-a6e1-430935f509c3")
 	)
 	(label "beep"
-		(at 137.16 228.6 0)
+		(at 129.54 228.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15262,7 +15297,7 @@
 		(uuid "9d019a3e-8a5c-48b0-a775-5886db38f9b2")
 	)
 	(label "LED"
-		(at 139.7 234.95 0)
+		(at 132.08 234.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15548,7 +15583,7 @@
 	)
 	(global_label "BEEPER"
 		(shape input)
-		(at 120.65 228.6 180)
+		(at 113.03 228.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15558,7 +15593,7 @@
 		)
 		(uuid "0c257c78-f0af-458d-a0f4-a3b12dd43a04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0687 228.6794 0)
+			(at 103.4487 228.6794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16798,7 +16833,7 @@
 	)
 	(global_label "WS2811_LED_PIN"
 		(shape input)
-		(at 129.54 234.95 180)
+		(at 121.92 234.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16808,7 +16843,7 @@
 		)
 		(uuid "833044cf-5aa7-4f4d-981b-398595463b86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.1291 235.0294 0)
+			(at 103.5091 235.0294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25434,7 +25469,7 @@
 		(dnp no)
 		(uuid "5f956b3d-4296-47f1-a870-da0f68b22ea0")
 		(property "Reference" "R_ws2811"
-			(at 134.62 233.045 90)
+			(at 127 233.045 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27796,7 +27831,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 146.05 228.6 0)
+		(at 138.43 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27804,7 +27839,7 @@
 		(dnp no)
 		(uuid "732dc165-4582-4b09-abfd-aae567d5afeb")
 		(property "Reference" "TP2"
-			(at 152.4 226.695 0)
+			(at 144.78 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27813,7 +27848,7 @@
 			)
 		)
 		(property "Value" "BEP"
-			(at 147.32 229.235 0)
+			(at 139.7 229.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27822,7 +27857,7 @@
 			)
 		)
 		(property "Footprint" "Momo footprints Library:PinHeader_1x01_P2.54mm_Vertical"
-			(at 151.13 228.6 0)
+			(at 143.51 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27831,7 +27866,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 228.6 0)
+			(at 143.51 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27840,7 +27875,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 146.05 228.6 0)
+			(at 138.43 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27849,7 +27884,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 146.05 228.6 0)
+			(at 138.43 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27858,7 +27893,7 @@
 			)
 		)
 		(property "Arrow Part Number" "-"
-			(at 146.05 228.6 0)
+			(at 138.43 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27867,7 +27902,7 @@
 			)
 		)
 		(property "Supplier and ref" ""
-			(at 146.05 228.6 0)
+			(at 138.43 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27876,7 +27911,7 @@
 			)
 		)
 		(property "JLCPCB BOM" ""
-			(at 146.05 228.6 0)
+			(at 138.43 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27885,7 +27920,7 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
-			(at 146.05 228.6 0)
+			(at 138.43 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27894,7 +27929,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 146.05 228.6 0)
+			(at 138.43 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27903,7 +27938,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 146.05 228.6 0)
+			(at 138.43 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27912,7 +27947,7 @@
 			)
 		)
 		(property "# Footprint checked" "-"
-			(at 146.05 228.6 0)
+			(at 138.43 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27921,7 +27956,7 @@
 			)
 		)
 		(property "# Value checked" "-"
-			(at 146.05 228.6 0)
+			(at 138.43 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27930,7 +27965,7 @@
 			)
 		)
 		(property "#LCSC Check" "-"
-			(at 146.05 228.6 0)
+			(at 138.43 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27939,7 +27974,7 @@
 			)
 		)
 		(property "#LCSC Part" "-"
-			(at 146.05 228.6 0)
+			(at 138.43 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27948,7 +27983,7 @@
 			)
 		)
 		(property "Price" "-"
-			(at 146.05 228.6 0)
+			(at 138.43 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32989,7 +33024,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 134.62 228.6 270)
+		(at 127 228.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32997,7 +33032,7 @@
 		(dnp no)
 		(uuid "bddb6fed-1271-4e0f-bebd-eab0add93331")
 		(property "Reference" "R_beep1"
-			(at 134.62 226.695 90)
+			(at 127 226.695 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33005,7 +33040,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 134.62 230.505 90)
+			(at 127 230.505 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33013,7 +33048,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33022,7 +33057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33031,7 +33066,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33040,7 +33075,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33049,7 +33084,7 @@
 			)
 		)
 		(property "Arrow Part Number" "xx"
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33058,7 +33093,7 @@
 			)
 		)
 		(property "Supplier and ref" ""
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33067,7 +33102,7 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33076,7 +33111,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33085,7 +33120,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33094,7 +33129,7 @@
 			)
 		)
 		(property "# Footprint checked" "-"
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33103,7 +33138,7 @@
 			)
 		)
 		(property "# Value checked" "-"
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33112,7 +33147,7 @@
 			)
 		)
 		(property "#LCSC Check" "-"
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33121,7 +33156,7 @@
 			)
 		)
 		(property "#LCSC Part" "C8218"
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33130,7 +33165,7 @@
 			)
 		)
 		(property "Price" "-"
-			(at 134.62 228.6 0)
+			(at 127 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33220,7 +33255,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Flag")
-		(at 146.05 234.95 0)
+		(at 138.43 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33228,7 +33263,7 @@
 		(dnp no)
 		(uuid "c000e6c3-2641-47b5-81a3-8170f5982c88")
 		(property "Reference" "TP1"
-			(at 152.4 233.045 0)
+			(at 144.78 233.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33237,7 +33272,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 147.32 235.585 0)
+			(at 139.7 235.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33246,7 +33281,7 @@
 			)
 		)
 		(property "Footprint" "Momo footprints Library:FlightController_Pad_1.5mm_small"
-			(at 151.13 234.95 0)
+			(at 143.51 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33255,7 +33290,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 234.95 0)
+			(at 143.51 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33264,7 +33299,7 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
-			(at 146.05 234.95 0)
+			(at 138.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33273,7 +33308,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 146.05 234.95 0)
+			(at 138.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33282,7 +33317,7 @@
 			)
 		)
 		(property "Supplier and ref" ""
-			(at 146.05 234.95 0)
+			(at 138.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33291,7 +33326,7 @@
 			)
 		)
 		(property "JLCPCB BOM" ""
-			(at 146.05 234.95 0)
+			(at 138.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33300,7 +33335,7 @@
 			)
 		)
 		(property "MANUFACTURER" "0"
-			(at 146.05 234.95 0)
+			(at 138.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33309,7 +33344,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 146.05 234.95 0)
+			(at 138.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33318,7 +33353,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 146.05 234.95 0)
+			(at 138.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33327,7 +33362,7 @@
 			)
 		)
 		(property "# Footprint checked" "-"
-			(at 146.05 234.95 0)
+			(at 138.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33336,7 +33371,7 @@
 			)
 		)
 		(property "# Value checked" "-"
-			(at 146.05 234.95 0)
+			(at 138.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33345,7 +33380,7 @@
 			)
 		)
 		(property "#LCSC Check" "-"
-			(at 146.05 234.95 0)
+			(at 138.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33354,7 +33389,7 @@
 			)
 		)
 		(property "#LCSC Part" "-"
-			(at 146.05 234.95 0)
+			(at 138.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33363,7 +33398,7 @@
 			)
 		)
 		(property "Price" "-"
-			(at 146.05 234.95 0)
+			(at 138.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
