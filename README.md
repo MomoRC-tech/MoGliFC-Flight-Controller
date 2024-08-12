@@ -8,7 +8,7 @@ powered by
 Tapeout expected: 09/2024
 
 Work based on:
-* MomoRC ELRS true diversity receiver
+* MomoRC ELRS true diversity receiver ( [MomoRX1](documentation/221022_FC MomoRC_MOMORX_manual_v1.0.pdf) ) 
 * MomoRC MomoFC1 Flight Controller ( [MomoFC1 manual](documentation/2022_MomoFC1_manual.pdf) )
 
 # Overview
