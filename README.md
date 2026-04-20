@@ -1,4 +1,4 @@
-# MoGliFC – flight controller and generic CAN-FD interface
+# DebugFC – flight controller and generic CAN-FD interface
 powered by
 
 <img src="/documentation/images/MOMORC-logo.jfif" width="60"> <img src="/documentation/images/gliwa-logo.svg" width="90"> <img src="/documentation/images/t1_timing.svg" width="60">
@@ -12,26 +12,26 @@ Work based on:
 * MomoRC MomoFC1 Flight Controller ( [MomoFC1 manual](documentation/2022_MomoFC1_manual.pdf) )
 
 # Overview
-MoGliFC is an STM32H743-based flight controller for quadcopters ('drones') as well as aircraft with wings.
+DebugFC is an STM32H743-based flight controller for quadcopters ('drones') as well as aircraft with wings.
 Winged aircraft typically require servos to be connected to the flight controller while copters
 typically have no such requirement. 
 
 ### Quadcopter and Wing
-MoGliFC addresses both use-cases by providing a scored extension board for the servo connectors which 
+DebugFC addresses both use-cases by providing a scored extension board for the servo connectors which 
 also holds the BEC for the servos. When removed, the signal outputs remain on the flight controller and 
 are available e.g. as GPIOs, UARTs or PWM outputs.
 To enable a "Full Stack" solution for drones incorporating also a dedicated ESC daughter board, the design 
-goal of MoGliFC is such that off-the-shelf ESC boards can be used. (outlook: custom ESC board for MoGliFC with advanced features)    
+goal of DebugFC is such that off-the-shelf ESC boards can be used. (outlook: custom ESC board for DebugFC with advanced features)    
 
 ### CAN-FD and Debug
-The second extension option is a larger frame which allows the MoGliFC to be placed in a BOPLA ALUBOS housing
-with the USB interface as well es the CAN/CAN-FD externally available turning the MogliFC into a general
+The second extension option is a larger frame which allows the DebugFC to be placed in a BOPLA ALUBOS housing
+with the USB interface as well es the CAN/CAN-FD externally available turning the DebugFC into a general
 purpose CAN-FD interface. This second extension also holds a SWD (single wire debug) interface for easy debugging.
 
 
-![PCB mechanical concept](documentation/images/doc_MoGliFC_PCB_concept.svg "PCB Mechanical Concept")
+![PCB mechanical concept](documentation/images/doc_DebugFC_PCB_concept.svg "PCB Mechanical Concept")
 
-[edit online with draw.io](https://app.diagrams.net/#HMomoRC-tech%2FMoGliFC%2Fmain%2Fdocumentation%2Fimages%2Fdoc_MoGliFC_PCB_concept.svg)
+[edit online with draw.io](https://app.diagrams.net/#HMomoRC-tech%2FDebugFC%2Fmain%2Fdocumentation%2Fimages%2Fdoc_DebugFC_PCB_concept.svg)
 
 
 
@@ -61,9 +61,9 @@ purpose CAN-FD interface. This second extension also holds a SWD (single wire de
 * LDO 3.3V 500mA (external)   
 
 
-![Power concept](documentation/images/doc_MoGliFC_power_concept.svg "Power Concept")
+![Power concept](documentation/images/doc_DebugFC_power_concept.svg "Power Concept")
 
-[edit online with draw.io](https://app.diagrams.net/#HMomoRC-tech%2FMoGliFC%2Fmain%2Fdocumentation%2Fimages%2Fdoc_MoGliFC_power_concept.svg)
+[edit online with draw.io](https://app.diagrams.net/#HMomoRC-tech%2FDebugFC%2Fmain%2Fdocumentation%2Fimages%2Fdoc_DebugFC_power_concept.svg)
 
 
 
@@ -120,6 +120,6 @@ Main developers are:
 - [ ] develop and prototype board
 - [ ] develop inav branch
 - [ ] final prototype testing
-- [ ] ingest MoGliFC as supported INAV and Betaflight target
+- [ ] ingest DebugFC as supported INAV and Betaflight target
 - [ ] series production
 
